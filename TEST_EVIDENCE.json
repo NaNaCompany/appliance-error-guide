@@ -1,0 +1,10 @@
+{
+  "slug": "appliance-error-guide",
+  "pass": true,
+  "testsPassed": 8,
+  "testsFailed": 0,
+  "source_sha256": "4edd8d71ebf9873905b2d792af67d67ed447c8e3921fca67c07368eba6681b51",
+  "dist_sha256": "c6707f3d3271d47f512e0dba5ea4464191f368f2fde5fc3ead8329c2e252dfe9",
+  "reproducibleBuild": true,
+  "browserOrPhysicalExecutionChecked": false
+}

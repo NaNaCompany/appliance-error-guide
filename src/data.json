@@ -1,0 +1,1987 @@
+{
+  "slug": "appliance-error-guide",
+  "checkedAt": "2026-10-27",
+  "title": {
+    "ko": "가전 오류 코드 찾기",
+    "en": "Appliance Error Code Guide",
+    "es": "Guía de códigos de electrodomésticos",
+    "zh": "家电错误代码查询",
+    "ja": "家電エラーコード検索",
+    "de": "Fehlercodes für Haushaltsgeräte"
+  },
+  "description": {
+    "ko": "제조사와 제품군을 구분해 코드 뜻, 안전한 외관 확인과 공식 지원을 찾습니다.",
+    "en": "Find code meanings, safe external checks and official support by brand and appliance family.",
+    "es": "Consulte significados, comprobaciones externas seguras y soporte oficial por marca y tipo de aparato.",
+    "zh": "按品牌与产品类型查询代码含义、安全外观检查及官方支持。",
+    "ja": "メーカーと製品群を分けてコードの意味、安全な外観確認、公式サポートを調べます。",
+    "de": "Codebedeutungen, sichere äußere Prüfungen und offizielle Hilfe nach Marke und Gerätefamilie finden."
+  },
+  "categoryLabels": {
+    "washer": {
+      "ko": "세탁기",
+      "en": "Washers",
+      "es": "Lavadoras",
+      "zh": "洗衣机",
+      "ja": "洗濯機",
+      "de": "Waschmaschinen"
+    },
+    "dishwasher": {
+      "ko": "식기세척기",
+      "en": "Dishwashers",
+      "es": "Lavavajillas",
+      "zh": "洗碗机",
+      "ja": "食洗機",
+      "de": "Geschirrspüler"
+    },
+    "refrigerator": {
+      "ko": "냉장고",
+      "en": "Refrigerators",
+      "es": "Frigoríficos",
+      "zh": "冰箱",
+      "ja": "冷蔵庫",
+      "de": "Kühlschränke"
+    }
+  },
+  "entries": [
+    {
+      "id": "samsung-washer-4c",
+      "slug": "samsung-washer-4c",
+      "code": "4C",
+      "aliases": [
+        "1 4C",
+        "nF",
+        "4E"
+      ],
+      "category": "washer",
+      "brand": "Samsung",
+      "models": [
+        "Samsung US washing machines with the corresponding digital information code"
+      ],
+      "sources": [
+        {
+          "label": "Samsung US — washer information and error codes",
+          "url": "https://www.samsung.com/us/support/troubleshoot/TSG10000997/"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "삼성 세탁기 4C",
+          "summary": "급수가 정상적으로 이루어지지 않았습니다.",
+          "checks": [
+            "주방 수도도 단수인지 확인하세요.",
+            "기기를 옮기지 말고 보이는 급수호스 눌림과 밸브 닫힘을 확인하세요."
+          ],
+          "escalation": "공급이 정상인데 지속되면 모델명과 관찰 내용을 제조사 공식 서비스에 전달하세요. 밸브·필터 분해는 맡기세요.",
+          "scope": "삼성 미국 세탁기 코드 안내 범위입니다. 전 모델 공통이 아니며 해당 모델 설명서가 우선합니다."
+        },
+        "en": {
+          "title": "Samsung washer 4C",
+          "summary": "Filling has not proceeded correctly.",
+          "checks": [
+            "Check whether water is also unavailable at the kitchen faucet.",
+            "Without moving the appliance, look for a pinched inlet hose or closed supply valve."
+          ],
+          "escalation": "If supply is available but the code persists, report model and observations to official manufacturer service. Leave valve/filter disassembly to service.",
+          "scope": "Within Samsung US washer code guidance; not universal to every model. The exact model manual takes priority."
+        },
+        "es": {
+          "title": "Lavadora Samsung 4C",
+          "summary": "El llenado no se ha realizado correctamente.",
+          "checks": [
+            "Compruebe si tampoco sale agua del grifo de cocina.",
+            "Sin mover el aparato, observe si la entrada está aplastada o la llave cerrada."
+          ],
+          "escalation": "Si hay suministro pero persiste, comunique modelo y observaciones al servicio oficial. Deje el desmontaje de válvulas y filtros al técnico.",
+          "scope": "Dentro de la guía estadounidense de lavadoras Samsung; no se aplica a todo modelo. Prevalece el manual exacto."
+        },
+        "zh": {
+          "title": "三星洗衣机 4C",
+          "summary": "进水未正常完成。",
+          "checks": [
+            "检查厨房水龙头是否也停水。",
+            "不要移动设备，查看可见进水管是否受压、阀门是否关闭。"
+          ],
+          "escalation": "供水正常仍报错时，将型号与观察结果交给品牌官方服务；阀门及滤网拆卸交由专业人员。",
+          "scope": "限三星美国洗衣机代码指南范围，不保证全型号通用；以本型号说明书为准。"
+        },
+        "ja": {
+          "title": "Samsung 洗濯機 4C",
+          "summary": "給水が正常に進んでいません。",
+          "checks": [
+            "台所の蛇口も断水しているか確認します。",
+            "本体を動かさず、見える給水ホースのつぶれや給水栓の閉まりを確認します。"
+          ],
+          "escalation": "給水があるのに続く場合、機種名と観察内容をメーカー公式修理へ伝えます。弁やフィルターの分解は任せます。",
+          "scope": "Samsung 米国の洗濯機コード案内の範囲です。全機種共通ではなく該当説明書を優先します。"
+        },
+        "de": {
+          "title": "Samsung-Waschmaschine 4C",
+          "summary": "Die Befüllung erfolgt nicht ordnungsgemäß.",
+          "checks": [
+            "Prüfen Sie, ob auch am Küchenhahn Wasser fehlt.",
+            "Prüfen Sie ohne Verschieben des Geräts sichtbare Schlauchquetschungen und ein geschlossenes Zulaufventil."
+          ],
+          "escalation": "Bei vorhandener Versorgung und anhaltendem Code Modell und Beobachtungen dem offiziellen Service melden. Ventil-/Filterausbau dem Service überlassen.",
+          "scope": "Im Bereich der US-Waschmaschinenhilfe von Samsung; nicht für jedes Modell. Das konkrete Modellhandbuch hat Vorrang."
+        }
+      }
+    },
+    {
+      "id": "samsung-washer-5c",
+      "slug": "samsung-washer-5c",
+      "code": "5C",
+      "aliases": [
+        "nd",
+        "5E",
+        "SE",
+        "SC",
+        "1 5C"
+      ],
+      "category": "washer",
+      "brand": "Samsung",
+      "models": [
+        "Samsung US washing machines with the corresponding digital information code"
+      ],
+      "sources": [
+        {
+          "label": "Samsung US — washer information and error codes",
+          "url": "https://www.samsung.com/us/support/troubleshoot/TSG10000997/"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "삼성 세탁기 5C",
+          "summary": "배수가 필요한 속도로 이루어지지 않았습니다.",
+          "checks": [
+            "제품을 당기거나 호스를 분리하지 말고 보이는 배수호스 눌림을 살펴보세요.",
+            "표시 전체, 발생 코스와 라벨의 모델명을 기록하세요."
+          ],
+          "escalation": "반복되면 제조사 공식 서비스에 잔수와 호스 상태를 전달하세요. 공용 배수 막힘은 건물 관리·배관 업체에 문의하세요.",
+          "scope": "삼성 미국 세탁기 코드 안내 범위입니다. 전 모델 공통이 아니며 해당 모델 설명서가 우선합니다."
+        },
+        "en": {
+          "title": "Samsung washer 5C",
+          "summary": "Water has not drained at the required rate.",
+          "checks": [
+            "Inspect the visible drain hose for compression without pulling out the appliance or disconnecting hoses.",
+            "Record the complete display, active cycle and model from its label."
+          ],
+          "escalation": "For recurrence, report retained water and hose condition to official manufacturer service. A shared blocked drain requires building maintenance or a plumber.",
+          "scope": "Within Samsung US washer code guidance; not universal to every model. The exact model manual takes priority."
+        },
+        "es": {
+          "title": "Lavadora Samsung 5C",
+          "summary": "El agua no se evacúa al ritmo requerido.",
+          "checks": [
+            "Revise el desagüe visible sin extraer el aparato ni desconectar tubos.",
+            "Anote pantalla completa, programa activo y modelo de la etiqueta."
+          ],
+          "escalation": "Si se repite, informe al servicio oficial sobre agua retenida y manguera. Para un desagüe común atascado, contacte mantenimiento o fontanería.",
+          "scope": "Dentro de la guía estadounidense de lavadoras Samsung; no se aplica a todo modelo. Prevalece el manual exacto."
+        },
+        "zh": {
+          "title": "三星洗衣机 5C",
+          "summary": "排水速度未达到要求。",
+          "checks": [
+            "查看外露排水管是否受压，不要拉出设备或拆开管道。",
+            "记录完整显示内容、当时程序及标签型号。"
+          ],
+          "escalation": "反复出现时向品牌官方服务说明积水及管道情况；共用排水堵塞请联系物业或管道服务。",
+          "scope": "限三星美国洗衣机代码指南范围，不保证全型号通用；以本型号说明书为准。"
+        },
+        "ja": {
+          "title": "Samsung 洗濯機 5C",
+          "summary": "必要な速さで排水できていません。",
+          "checks": [
+            "本体を引き出したりホースを外したりせず、見える排水ホースのつぶれを確認します。",
+            "表示全体、発生コース、ラベルの機種名を記録します。"
+          ],
+          "escalation": "再発する場合は残水とホース状態を公式修理へ伝えます。共通排水の詰まりは管理者や配管業者へ相談します。",
+          "scope": "Samsung 米国の洗濯機コード案内の範囲です。全機種共通ではなく該当説明書を優先します。"
+        },
+        "de": {
+          "title": "Samsung-Waschmaschine 5C",
+          "summary": "Das Wasser läuft nicht in der erforderlichen Zeit ab.",
+          "checks": [
+            "Prüfen Sie den sichtbaren Ablaufschlauch auf Quetschungen, ohne Gerät oder Schläuche auszubauen.",
+            "Notieren Sie vollständige Anzeige, laufendes Programm und Modell vom Typenschild."
+          ],
+          "escalation": "Bei Wiederholung Restwasser und Schlauchzustand dem offiziellen Service melden. Gemeinsame Abflussverstopfungen an Hausverwaltung oder Sanitärbetrieb melden.",
+          "scope": "Im Bereich der US-Waschmaschinenhilfe von Samsung; nicht für jedes Modell. Das konkrete Modellhandbuch hat Vorrang."
+        }
+      }
+    },
+    {
+      "id": "samsung-washer-ub",
+      "slug": "samsung-washer-ub",
+      "code": "Ub",
+      "aliases": [
+        "U6",
+        "UE",
+        "1 Ub",
+        "1U6"
+      ],
+      "category": "washer",
+      "brand": "Samsung",
+      "models": [
+        "Samsung US washing machines with the corresponding digital information code"
+      ],
+      "sources": [
+        {
+          "label": "Samsung US — washer information and error codes",
+          "url": "https://www.samsung.com/us/support/troubleshoot/TSG10000997/"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "삼성 세탁기 Ub",
+          "summary": "빨래의 무게가 쏠려 탈수가 완료되지 못했습니다.",
+          "checks": [
+            "일시정지 후 통 정지와 정상 해제를 기다린 뒤 엉킨 빨래를 고르게 펴세요.",
+            "큰 빨래의 무게와 선택 코스가 모델 설명서에 맞는지 확인하세요."
+          ],
+          "escalation": "적정 빨래·코스에서도 반복되거나 진동이 심하면 사용을 멈추고 제조사 공식 서비스에 설치 상태와 코스를 전달하세요.",
+          "scope": "삼성 미국 세탁기 코드 안내 범위입니다. 전 모델 공통이 아니며 해당 모델 설명서가 우선합니다."
+        },
+        "en": {
+          "title": "Samsung washer Ub",
+          "summary": "An uneven load has prevented completion of spinning.",
+          "checks": [
+            "Pause; wait for drum standstill and normal unlocking before redistributing tangled laundry.",
+            "Check the model manual for the correct cycle and load limits for bulky items."
+          ],
+          "escalation": "If it repeats with suitable laundry/cycle or vibration is severe, stop use and report installation conditions and cycle to official manufacturer service.",
+          "scope": "Within Samsung US washer code guidance; not universal to every model. The exact model manual takes priority."
+        },
+        "es": {
+          "title": "Lavadora Samsung Ub",
+          "summary": "Una carga desequilibrada impide completar el centrifugado.",
+          "checks": [
+            "Pause y espere la parada y el desbloqueo normal antes de repartir la ropa enredada.",
+            "Consulte el manual para elegir programa y carga adecuados para prendas voluminosas."
+          ],
+          "escalation": "Si se repite con carga/programa adecuados o vibra mucho, deje de usarla e informe al servicio oficial sobre instalación y programa.",
+          "scope": "Dentro de la guía estadounidense de lavadoras Samsung; no se aplica a todo modelo. Prevalece el manual exacto."
+        },
+        "zh": {
+          "title": "三星洗衣机 Ub",
+          "summary": "衣物重量不均导致无法完成脱水。",
+          "checks": [
+            "暂停后等待内筒停止、门锁正常解除，再将缠绕衣物摊匀。",
+            "按型号说明书确认大件衣物所需程序与装载限制。"
+          ],
+          "escalation": "合适负载与程序下仍重复，或剧烈振动时，请停用并向官方服务说明安装状态与程序。",
+          "scope": "限三星美国洗衣机代码指南范围，不保证全型号通用；以本型号说明书为准。"
+        },
+        "ja": {
+          "title": "Samsung 洗濯機 Ub",
+          "summary": "衣類の偏りにより脱水を完了できません。",
+          "checks": [
+            "一時停止し、槽停止と正常な解錠を待ってから、絡んだ衣類を均等に広げます。",
+            "大物の衣類について、コースと投入量が機種の説明書に合うか確認します。"
+          ],
+          "escalation": "適切な衣類・コースでも再発する場合や激しい振動は使用を止め、設置状態とコースを公式修理へ伝えます。",
+          "scope": "Samsung 米国の洗濯機コード案内の範囲です。全機種共通ではなく該当説明書を優先します。"
+        },
+        "de": {
+          "title": "Samsung-Waschmaschine Ub",
+          "summary": "Unwucht verhindert den Abschluss des Schleuderns.",
+          "checks": [
+            "Pausieren Sie; verteilen Sie Wäsche erst nach Trommelstillstand und regulärer Entriegelung.",
+            "Prüfen Sie im Modellhandbuch Programm und Beladungsgrenzen für schwere Einzelstücke."
+          ],
+          "escalation": "Bei Wiederholung mit geeigneter Beladung oder starker Vibration Nutzung beenden und Aufstellung sowie Programm dem offiziellen Service melden.",
+          "scope": "Im Bereich der US-Waschmaschinenhilfe von Samsung; nicht für jedes Modell. Das konkrete Modellhandbuch hat Vorrang."
+        }
+      }
+    },
+    {
+      "id": "samsung-washer-sud",
+      "slug": "samsung-washer-sud",
+      "code": "SUd",
+      "aliases": [
+        "5UD",
+        "Sd",
+        "5d",
+        "SUdS",
+        "5Ud5"
+      ],
+      "category": "washer",
+      "brand": "Samsung",
+      "models": [
+        "Samsung US washing machines with the corresponding digital information code"
+      ],
+      "sources": [
+        {
+          "label": "Samsung US — washer information and error codes",
+          "url": "https://www.samsung.com/us/support/troubleshoot/TSG10000997/"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "삼성 세탁기 SUd",
+          "summary": "과도한 거품을 처리하는 상태입니다.",
+          "checks": [
+            "세제 종류·투입량을 제품 설명서와 세제 라벨에 대조하세요.",
+            "거품 처리 중 세제를 더 넣지 말고 화면과 거품 변화를 관찰하세요."
+          ],
+          "escalation": "맞는 세제·용량에서도 계속되거나 누수가 생기면 제조사 공식 지원에 문의하세요. 표시만으로 부품 고장을 단정하지 마세요.",
+          "scope": "삼성 미국 세탁기 코드 안내 범위입니다. 전 모델 공통이 아니며 해당 모델 설명서가 우선합니다."
+        },
+        "en": {
+          "title": "Samsung washer SUd",
+          "summary": "The washer is managing excessive foam.",
+          "checks": [
+            "Compare detergent type and dose with the appliance manual and detergent label.",
+            "Do not add detergent during foam management; observe the display and foam level."
+          ],
+          "escalation": "If it persists with correct detergent/dose or leakage appears, contact official support. The message alone cannot identify a failed part.",
+          "scope": "Within Samsung US washer code guidance; not universal to every model. The exact model manual takes priority."
+        },
+        "es": {
+          "title": "Lavadora Samsung SUd",
+          "summary": "La lavadora está gestionando un exceso de espuma.",
+          "checks": [
+            "Compare tipo y dosis de detergente con el manual y la etiqueta.",
+            "No añada detergente durante la eliminación de espuma; observe pantalla y espuma."
+          ],
+          "escalation": "Si persiste con detergente/dosis correctos o hay fugas, contacte soporte oficial. El aviso solo no identifica una pieza averiada.",
+          "scope": "Dentro de la guía estadounidense de lavadoras Samsung; no se aplica a todo modelo. Prevalece el manual exacto."
+        },
+        "zh": {
+          "title": "三星洗衣机 SUd",
+          "summary": "洗衣机正在处理过量泡沫。",
+          "checks": [
+            "对照设备说明书与洗涤剂标签，确认类型及用量。",
+            "处理泡沫期间不要再加洗涤剂，观察显示与泡沫变化。"
+          ],
+          "escalation": "使用正确洗涤剂与用量后仍持续，或出现漏水时，请联系官方支持；仅凭提示不能确定故障零件。",
+          "scope": "限三星美国洗衣机代码指南范围，不保证全型号通用；以本型号说明书为准。"
+        },
+        "ja": {
+          "title": "Samsung 洗濯機 SUd",
+          "summary": "過剰な泡を処理しています。",
+          "checks": [
+            "洗剤の種類と量を製品説明書と洗剤表示で確認します。",
+            "泡の処理中は洗剤を追加せず、表示と泡の変化を見ます。"
+          ],
+          "escalation": "適切な洗剤・量でも続く場合や漏水があれば公式サポートへ相談します。表示だけで故障部品は特定できません。",
+          "scope": "Samsung 米国の洗濯機コード案内の範囲です。全機種共通ではなく該当説明書を優先します。"
+        },
+        "de": {
+          "title": "Samsung-Waschmaschine SUd",
+          "summary": "Die Maschine behandelt übermäßigen Schaum.",
+          "checks": [
+            "Vergleichen Sie Waschmittelart und Dosierung mit Gerätehandbuch und Etikett.",
+            "Geben Sie während der Schaumbeseitigung kein Waschmittel hinzu; beobachten Sie Anzeige und Schaum."
+          ],
+          "escalation": "Bei Fortbestand trotz richtiger Dosierung oder bei Leckage offiziellen Support kontaktieren. Die Meldung allein bestimmt kein defektes Bauteil.",
+          "scope": "Im Bereich der US-Waschmaschinenhilfe von Samsung; nicht für jedes Modell. Das konkrete Modellhandbuch hat Vorrang."
+        }
+      }
+    },
+    {
+      "id": "samsung-dishwasher-4c",
+      "slug": "samsung-dishwasher-4c",
+      "code": "4C",
+      "aliases": [
+        "4E"
+      ],
+      "category": "dishwasher",
+      "brand": "Samsung",
+      "models": [
+        "Samsung US dishwashers with a digital error-code display"
+      ],
+      "sources": [
+        {
+          "label": "Samsung US — dishwasher error codes",
+          "url": "https://www.samsung.com/us/support/troubleshoot/TSG10004499/"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "삼성 식기세척기 4C",
+          "summary": "필요한 조건으로 물이 공급되지 않습니다.",
+          "checks": [
+            "주방 수도도 단수인지 확인하세요.",
+            "기기를 옮기지 말고 보이는 급수호스 눌림과 밸브 닫힘을 확인하세요."
+          ],
+          "escalation": "공급이 정상인데 지속되면 모델명과 관찰 내용을 제조사 공식 서비스에 전달하세요. 밸브·필터 분해는 맡기세요.",
+          "scope": "삼성 미국 디지털 표시 식기세척기 안내 범위입니다. 점멸등 전용 모델의 패턴으로 환산하지 마세요."
+        },
+        "en": {
+          "title": "Samsung dishwasher 4C",
+          "summary": "Water supply does not meet the required conditions.",
+          "checks": [
+            "Check whether water is also unavailable at the kitchen faucet.",
+            "Without moving the appliance, look for a pinched inlet hose or closed supply valve."
+          ],
+          "escalation": "If supply is available but the code persists, report model and observations to official manufacturer service. Leave valve/filter disassembly to service.",
+          "scope": "Samsung US dishwashers with digital code displays covered by this guide; do not translate into blinking-light patterns."
+        },
+        "es": {
+          "title": "Lavavajillas Samsung 4C",
+          "summary": "El suministro de agua no cumple las condiciones necesarias.",
+          "checks": [
+            "Compruebe si tampoco sale agua del grifo de cocina.",
+            "Sin mover el aparato, observe si la entrada está aplastada o la llave cerrada."
+          ],
+          "escalation": "Si hay suministro pero persiste, comunique modelo y observaciones al servicio oficial. Deje el desmontaje de válvulas y filtros al técnico.",
+          "scope": "Para lavavajillas Samsung de EE. UU. con códigos digitales de esta guía; no equivale a patrones de luces."
+        },
+        "zh": {
+          "title": "三星洗碗机 4C",
+          "summary": "供水未达到所需条件。",
+          "checks": [
+            "检查厨房水龙头是否也停水。",
+            "不要移动设备，查看可见进水管是否受压、阀门是否关闭。"
+          ],
+          "escalation": "供水正常仍报错时，将型号与观察结果交给品牌官方服务；阀门及滤网拆卸交由专业人员。",
+          "scope": "限本指南涉及的三星美国数字显示式洗碗机，不能换算为闪灯机型的灯光模式。"
+        },
+        "ja": {
+          "title": "Samsung 食洗機 4C",
+          "summary": "必要な条件で給水されていません。",
+          "checks": [
+            "台所の蛇口も断水しているか確認します。",
+            "本体を動かさず、見える給水ホースのつぶれや給水栓の閉まりを確認します。"
+          ],
+          "escalation": "給水があるのに続く場合、機種名と観察内容をメーカー公式修理へ伝えます。弁やフィルターの分解は任せます。",
+          "scope": "案内対象の Samsung 米国コード表示式食洗機用です。点滅ランプ式へ直接換算しないでください。"
+        },
+        "de": {
+          "title": "Samsung-Geschirrspüler 4C",
+          "summary": "Der Wasserzulauf erfüllt die nötigen Bedingungen nicht.",
+          "checks": [
+            "Prüfen Sie, ob auch am Küchenhahn Wasser fehlt.",
+            "Prüfen Sie ohne Verschieben des Geräts sichtbare Schlauchquetschungen und ein geschlossenes Zulaufventil."
+          ],
+          "escalation": "Bei vorhandener Versorgung und anhaltendem Code Modell und Beobachtungen dem offiziellen Service melden. Ventil-/Filterausbau dem Service überlassen.",
+          "scope": "Für digitale Codeanzeigen der Samsung-US-Geschirrspülerhilfe; nicht in Blinkmuster übersetzen."
+        }
+      }
+    },
+    {
+      "id": "samsung-dishwasher-5c",
+      "slug": "samsung-dishwasher-5c",
+      "code": "5C",
+      "aliases": [
+        "SC",
+        "5E",
+        "SE"
+      ],
+      "category": "dishwasher",
+      "brand": "Samsung",
+      "models": [
+        "Samsung US dishwashers with a digital error-code display"
+      ],
+      "sources": [
+        {
+          "label": "Samsung US — dishwasher error codes",
+          "url": "https://www.samsung.com/us/support/troubleshoot/TSG10004499/"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "삼성 식기세척기 5C",
+          "summary": "식기세척기가 물을 배출하지 못합니다.",
+          "checks": [
+            "제품을 당기거나 호스를 분리하지 말고 보이는 배수호스 눌림을 살펴보세요.",
+            "연결된 싱크대도 배수가 느린지 확인하세요."
+          ],
+          "escalation": "반복되면 제조사 공식 서비스에 잔수와 호스 상태를 전달하세요. 공용 배수 막힘은 건물 관리·배관 업체에 문의하세요.",
+          "scope": "삼성 미국 디지털 표시 식기세척기 안내 범위입니다. 점멸등 전용 모델의 패턴으로 환산하지 마세요."
+        },
+        "en": {
+          "title": "Samsung dishwasher 5C",
+          "summary": "The dishwasher cannot drain its water.",
+          "checks": [
+            "Inspect the visible drain hose for compression without pulling out the appliance or disconnecting hoses.",
+            "Check whether the connected sink also drains slowly."
+          ],
+          "escalation": "For recurrence, report retained water and hose condition to official manufacturer service. A shared blocked drain requires building maintenance or a plumber.",
+          "scope": "Samsung US dishwashers with digital code displays covered by this guide; do not translate into blinking-light patterns."
+        },
+        "es": {
+          "title": "Lavavajillas Samsung 5C",
+          "summary": "El lavavajillas no puede evacuar el agua.",
+          "checks": [
+            "Revise el desagüe visible sin extraer el aparato ni desconectar tubos.",
+            "Observe si el fregadero conectado también desagua lentamente."
+          ],
+          "escalation": "Si se repite, informe al servicio oficial sobre agua retenida y manguera. Para un desagüe común atascado, contacte mantenimiento o fontanería.",
+          "scope": "Para lavavajillas Samsung de EE. UU. con códigos digitales de esta guía; no equivale a patrones de luces."
+        },
+        "zh": {
+          "title": "三星洗碗机 5C",
+          "summary": "洗碗机无法排水。",
+          "checks": [
+            "查看外露排水管是否受压，不要拉出设备或拆开管道。",
+            "检查相连水槽是否也排水缓慢。"
+          ],
+          "escalation": "反复出现时向品牌官方服务说明积水及管道情况；共用排水堵塞请联系物业或管道服务。",
+          "scope": "限本指南涉及的三星美国数字显示式洗碗机，不能换算为闪灯机型的灯光模式。"
+        },
+        "ja": {
+          "title": "Samsung 食洗機 5C",
+          "summary": "食洗機が排水できません。",
+          "checks": [
+            "本体を引き出したりホースを外したりせず、見える排水ホースのつぶれを確認します。",
+            "接続先の流しも排水が遅いか確認します。"
+          ],
+          "escalation": "再発する場合は残水とホース状態を公式修理へ伝えます。共通排水の詰まりは管理者や配管業者へ相談します。",
+          "scope": "案内対象の Samsung 米国コード表示式食洗機用です。点滅ランプ式へ直接換算しないでください。"
+        },
+        "de": {
+          "title": "Samsung-Geschirrspüler 5C",
+          "summary": "Der Geschirrspüler kann nicht abpumpen.",
+          "checks": [
+            "Prüfen Sie den sichtbaren Ablaufschlauch auf Quetschungen, ohne Gerät oder Schläuche auszubauen.",
+            "Prüfen Sie, ob auch das angeschlossene Spülbecken langsam abläuft."
+          ],
+          "escalation": "Bei Wiederholung Restwasser und Schlauchzustand dem offiziellen Service melden. Gemeinsame Abflussverstopfungen an Hausverwaltung oder Sanitärbetrieb melden.",
+          "scope": "Für digitale Codeanzeigen der Samsung-US-Geschirrspülerhilfe; nicht in Blinkmuster übersetzen."
+        }
+      }
+    },
+    {
+      "id": "samsung-dishwasher-ce",
+      "slug": "samsung-dishwasher-ce",
+      "code": "CE",
+      "aliases": [],
+      "category": "dishwasher",
+      "brand": "Samsung",
+      "models": [
+        "Samsung US dishwashers with a digital error-code display"
+      ],
+      "sources": [
+        {
+          "label": "Samsung US — dishwasher error codes",
+          "url": "https://www.samsung.com/us/support/troubleshoot/TSG10004499/"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "삼성 식기세척기 CE",
+          "summary": "조작부와 나머지 제어부 사이 통신 문제입니다.",
+          "checks": [
+            "표시 전체, 발생 코스와 라벨의 모델명을 기록하세요.",
+            "최근 정전·전원 중단과 코드 발생 시각이 일치하는지 확인하세요."
+          ],
+          "escalation": "지속되면 삼성 공식 서비스에 코드와 발생 시점을 전달하세요. 제어패널·배선을 열어 점검하지 마세요.",
+          "scope": "삼성 미국 디지털 표시 식기세척기 안내 범위입니다. 점멸등 전용 모델의 패턴으로 환산하지 마세요."
+        },
+        "en": {
+          "title": "Samsung dishwasher CE",
+          "summary": "Communication between the panel and other controls is interrupted.",
+          "checks": [
+            "Record the complete display, active cycle and model from its label.",
+            "Check whether the message coincides with a recent power interruption."
+          ],
+          "escalation": "If it persists, report the code and timing to Samsung official service; do not open the control panel or wiring.",
+          "scope": "Samsung US dishwashers with digital code displays covered by this guide; do not translate into blinking-light patterns."
+        },
+        "es": {
+          "title": "Lavavajillas Samsung CE",
+          "summary": "Hay un problema de comunicación entre el panel y los demás controles.",
+          "checks": [
+            "Anote pantalla completa, programa activo y modelo de la etiqueta.",
+            "Compruebe si el aviso coincide con un corte reciente de corriente."
+          ],
+          "escalation": "Si persiste, comunique código y momento al servicio oficial Samsung; no abra el panel ni el cableado.",
+          "scope": "Para lavavajillas Samsung de EE. UU. con códigos digitales de esta guía; no equivale a patrones de luces."
+        },
+        "zh": {
+          "title": "三星洗碗机 CE",
+          "summary": "操作面板与其他控制部分通信异常。",
+          "checks": [
+            "记录完整显示内容、当时程序及标签型号。",
+            "确认提示是否出现在近期停电或断电之后。"
+          ],
+          "escalation": "持续出现时向三星官方服务提供代码与发生时间；勿打开控制面板或线路。",
+          "scope": "限本指南涉及的三星美国数字显示式洗碗机，不能换算为闪灯机型的灯光模式。"
+        },
+        "ja": {
+          "title": "Samsung 食洗機 CE",
+          "summary": "操作パネルと他の制御部の通信異常です。",
+          "checks": [
+            "表示全体、発生コース、ラベルの機種名を記録します。",
+            "最近の停電や電源断と表示の時刻が一致するか確認します。"
+          ],
+          "escalation": "続く場合はコードと発生時点を Samsung 公式修理へ伝え、操作パネルや配線を開けないでください。",
+          "scope": "案内対象の Samsung 米国コード表示式食洗機用です。点滅ランプ式へ直接換算しないでください。"
+        },
+        "de": {
+          "title": "Samsung-Geschirrspüler CE",
+          "summary": "Die Kommunikation zwischen Bedienfeld und übriger Steuerung ist gestört.",
+          "checks": [
+            "Notieren Sie vollständige Anzeige, laufendes Programm und Modell vom Typenschild.",
+            "Prüfen Sie, ob die Meldung zeitlich zu einer Stromunterbrechung passt."
+          ],
+          "escalation": "Bei Fortbestand Code und Zeitpunkt an Samsung-Service melden; Bedienfeld und Verkabelung nicht öffnen.",
+          "scope": "Für digitale Codeanzeigen der Samsung-US-Geschirrspülerhilfe; nicht in Blinkmuster übersetzen."
+        }
+      }
+    },
+    {
+      "id": "samsung-rotary-dishwasher-lc",
+      "slug": "samsung-rotary-dishwasher-lc",
+      "code": "LC",
+      "aliases": [
+        "LE"
+      ],
+      "category": "dishwasher",
+      "brand": "Samsung",
+      "models": [
+        "Samsung non-Waterwall rotary-spray-arm dishwashers with LC/LE display"
+      ],
+      "sources": [
+        {
+          "label": "Samsung US — dishwasher error codes",
+          "url": "https://www.samsung.com/us/support/troubleshoot/TSG10004499/"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "삼성 식기세척기 LC",
+          "summary": "누수 감지부가 물기를 감지했습니다.",
+          "checks": [
+            "물을 밟거나 젖은 전기부에 접근하지 말고 건조한 곳에서 보이는 누수만 확인하세요.",
+            "손설거지용 세제 사용 여부와 과도한 거품 유무를 기록하세요."
+          ],
+          "escalation": "사용을 멈추고 삼성 공식 서비스에 누수·거품 상태를 전달하세요. 물과 전기부를 피하고 누수 감지기를 우회하지 마세요.",
+          "scope": "비 Waterwall 회전 분사식에 한정합니다. Waterwall의 LC는 반사판 장애도 가능해 별도 확인이 필요합니다."
+        },
+        "en": {
+          "title": "Samsung dishwasher LC",
+          "summary": "The leak-detection system has detected moisture.",
+          "checks": [
+            "From a dry position, look for visible leakage; do not step into water or approach wet electrical parts.",
+            "Note whether hand dishwashing liquid was used and excessive foam is visible."
+          ],
+          "escalation": "Stop use and report leakage/foam to Samsung official service. Stay clear of water and electrical parts; never bypass leak detection.",
+          "scope": "Non-Waterwall rotary-spray models only. Waterwall LC can also involve its reflector and needs separate interpretation."
+        },
+        "es": {
+          "title": "Lavavajillas Samsung LC",
+          "summary": "El sistema de detección de fugas ha detectado humedad.",
+          "checks": [
+            "Observe fugas desde una zona seca; no pise agua ni se acerque a elementos eléctricos mojados.",
+            "Anote si utilizó lavavajillas de mano y si observa espuma excesiva."
+          ],
+          "escalation": "Deje de usarlo e informe a Samsung de fugas/espuma. Evite agua y elementos eléctricos; no anule la detección de fugas.",
+          "scope": "Solo modelos de aspersión rotativa sin Waterwall. En Waterwall, LC también puede corresponder al reflector."
+        },
+        "zh": {
+          "title": "三星洗碗机 LC",
+          "summary": "漏水检测系统检测到水分。",
+          "checks": [
+            "在干燥位置观察可见漏水，不要踩入积水或接近受潮电气部件。",
+            "记录是否使用手洗洗洁精以及是否存在大量泡沫。"
+          ],
+          "escalation": "停用并向三星官方服务说明漏水与泡沫；远离积水及电气部件，切勿绕过漏水检测。",
+          "scope": "仅限非 Waterwall 旋转喷淋式。Waterwall 的 LC 还可能涉及反射板，须另行解释。"
+        },
+        "ja": {
+          "title": "Samsung 食洗機 LC",
+          "summary": "漏水検知部が水分を検出しています。",
+          "checks": [
+            "乾いた場所から見える水漏れを確認し、水たまりや濡れた電気部へ近づかないでください。",
+            "手洗い用洗剤の使用と過剰な泡の有無を記録します。"
+          ],
+          "escalation": "使用を止め漏水・泡の状態を Samsung 公式修理へ伝えます。水や電気部を避け、漏水検知を無効にしないでください。",
+          "scope": "非 Waterwall 回転噴射式に限定します。Waterwall の LC は反射板の問題もあり、別途確認が必要です。"
+        },
+        "de": {
+          "title": "Samsung-Geschirrspüler LC",
+          "summary": "Die Leckerkennung hat Feuchtigkeit festgestellt.",
+          "checks": [
+            "Suchen Sie von einem trockenen Standort nach sichtbarem Wasser; betreten Sie keine Pfützen und berühren Sie keine nassen Elektroteile.",
+            "Notieren Sie Handspülmittelnutzung und sichtbaren übermäßigen Schaum."
+          ],
+          "escalation": "Nutzung beenden und Wasser/Schaum an Samsung-Service melden. Abstand zu Wasser und Elektroteilen; Leckerkennung niemals überbrücken.",
+          "scope": "Nur rotierende Sprüharmsysteme ohne Waterwall. Bei Waterwall kann LC auch den Reflektor betreffen."
+        }
+      }
+    },
+    {
+      "id": "lg-top-load-washer-de",
+      "slug": "lg-top-load-washer-de",
+      "code": "dE",
+      "aliases": [],
+      "category": "washer",
+      "brand": "LG",
+      "models": [
+        "LG US top-load washing machines covered by the top-load error guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — top-load washer error code list",
+          "url": "https://www.lg.com/us/support/help-library/lg-top-load-washer-error-code-list-CT10000010-20154403824104"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 통돌이 세탁기 dE",
+          "summary": "뚜껑이 열린 것으로 감지됐습니다.",
+          "checks": [
+            "통 정지와 정상 해제 후 문 가장자리에 끼인 빨래나 이물질을 확인하세요.",
+            "억지로 누르지 말고 정상 닫힘과 걸쇠의 눈에 띄는 손상을 확인하세요."
+          ],
+          "escalation": "정상 닫힘에도 반복되거나 걸쇠가 손상됐으면 LG 공식 서비스에 문의하세요. 문잠금을 강제로 해제하지 마세요.",
+          "scope": "LG 미국 통돌이 세탁기 제품군 안내입니다. 버튼과 코드 표기는 모델 설명서에서 확인하세요."
+        },
+        "en": {
+          "title": "LG top-load washer dE",
+          "summary": "The washer detects an open lid.",
+          "checks": [
+            "After standstill and normal unlocking, inspect the door edge for trapped laundry or debris.",
+            "Check normal closure and visible latch damage without forcing the door."
+          ],
+          "escalation": "Contact LG official service if it recurs with normal closure or the latch is damaged; never force the lock open.",
+          "scope": "LG US top-load washer guidance; confirm controls and code spelling in the model manual."
+        },
+        "es": {
+          "title": "Lavadora LG de carga superior dE",
+          "summary": "La lavadora detecta la tapa abierta.",
+          "checks": [
+            "Tras la parada y el desbloqueo normal, revise si hay ropa u objetos en el borde de la puerta.",
+            "Compruebe el cierre normal y daños visibles del pestillo sin forzar la puerta."
+          ],
+          "escalation": "Contacte el servicio oficial LG si se repite con cierre normal o hay daños; no fuerce la cerradura.",
+          "scope": "Guía de lavadoras LG de carga superior de EE. UU.; confirme mandos y código en su manual."
+        },
+        "zh": {
+          "title": "LG 顶开式洗衣机 dE",
+          "summary": "洗衣机检测到上盖打开。",
+          "checks": [
+            "等待停止且正常解锁后，检查门边是否夹有衣物或异物。",
+            "确认能否正常关闭及锁扣是否明显损坏，不要强行关门。"
+          ],
+          "escalation": "正常关门后仍重复或锁扣损坏时，联系 LG 官方服务；勿强行解锁。",
+          "scope": "依据 LG 美国顶开式洗衣机指南；按型号说明书核对按键与代码。"
+        },
+        "ja": {
+          "title": "LG 縦型洗濯機 dE",
+          "summary": "ふたが開いていると検知しています。",
+          "checks": [
+            "槽停止と正常な解錠後、ドアの縁に衣類や異物が挟まっていないか確認します。",
+            "無理に押さず、正常に閉まるか、ラッチに目立つ破損がないか確認します。"
+          ],
+          "escalation": "正常に閉めても再発する場合やラッチ破損は LG 公式修理へ相談し、ロックを強制解除しないでください。",
+          "scope": "LG 米国の縦型洗濯機向けです。操作とコード表記は機種の説明書で確認します。"
+        },
+        "de": {
+          "title": "LG-Toplader dE",
+          "summary": "Die Maschine erkennt einen offenen Deckel.",
+          "checks": [
+            "Prüfen Sie nach Stillstand und regulärer Entriegelung den Türrand auf Wäsche oder Fremdkörper.",
+            "Prüfen Sie reguläres Schließen und sichtbare Riegelschäden, ohne Gewalt anzuwenden."
+          ],
+          "escalation": "Bei Wiederholung trotz normalem Schließen oder Riegelschäden LG-Service kontaktieren; Schloss nicht gewaltsam öffnen.",
+          "scope": "LG-US-Hilfe für Toplader; Bedienelemente und Schreibweise im Modellhandbuch bestätigen."
+        }
+      }
+    },
+    {
+      "id": "lg-top-load-washer-cl",
+      "slug": "lg-top-load-washer-cl",
+      "code": "CL",
+      "aliases": [],
+      "category": "washer",
+      "brand": "LG",
+      "models": [
+        "LG US top-load washing machines covered by the top-load error guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — top-load washer error code list",
+          "url": "https://www.lg.com/us/support/help-library/lg-top-load-washer-error-code-list-CT10000010-20154403824104"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 통돌이 세탁기 CL",
+          "summary": "제어 잠금이 켜져 있다는 알림입니다.",
+          "checks": [
+            "모델 설명서의 제어 잠금 해제 버튼·조합을 확인하세요.",
+            "설명서의 해제 조작 후 표시와 일반 버튼 반응을 확인하세요."
+          ],
+          "escalation": "해제 조작 후에도 버튼이 반응하지 않으면 LG 공식 지원에 모델명과 패널 사진을 전달하세요.",
+          "scope": "LG 미국 통돌이 세탁기 제품군 안내입니다. 버튼과 코드 표기는 모델 설명서에서 확인하세요."
+        },
+        "en": {
+          "title": "LG top-load washer CL",
+          "summary": "Control lock is enabled.",
+          "checks": [
+            "Find the control-lock release button or combination in the model manual.",
+            "Use the documented control-lock release and check normal button response."
+          ],
+          "escalation": "If controls remain unresponsive after the documented release, give LG official support the model and panel photo.",
+          "scope": "LG US top-load washer guidance; confirm controls and code spelling in the model manual."
+        },
+        "es": {
+          "title": "Lavadora LG de carga superior CL",
+          "summary": "Está activado el bloqueo de mandos.",
+          "checks": [
+            "Busque el botón o combinación de desbloqueo en el manual del modelo.",
+            "Realice el desbloqueo documentado y compruebe la respuesta normal de las teclas."
+          ],
+          "escalation": "Si no responden tras el desbloqueo indicado, facilite modelo y foto del panel al soporte oficial LG.",
+          "scope": "Guía de lavadoras LG de carga superior de EE. UU.; confirme mandos y código en su manual."
+        },
+        "zh": {
+          "title": "LG 顶开式洗衣机 CL",
+          "summary": "控制锁已启用。",
+          "checks": [
+            "查看型号说明书中的控制锁解除按键或组合。",
+            "按说明书解除控制锁后，检查普通按键反应。"
+          ],
+          "escalation": "按说明书解除后仍无响应，请向 LG 官方支持提供型号及面板照片。",
+          "scope": "依据 LG 美国顶开式洗衣机指南；按型号说明书核对按键与代码。"
+        },
+        "ja": {
+          "title": "LG 縦型洗濯機 CL",
+          "summary": "操作ロックが有効です。",
+          "checks": [
+            "機種の説明書で操作ロック解除ボタンや組み合わせを確認します。",
+            "説明書の解除操作後、表示と通常ボタンの反応を確認します。"
+          ],
+          "escalation": "指定の解除後も反応しない場合は、機種名とパネル写真を LG 公式サポートへ伝えます。",
+          "scope": "LG 米国の縦型洗濯機向けです。操作とコード表記は機種の説明書で確認します。"
+        },
+        "de": {
+          "title": "LG-Toplader CL",
+          "summary": "Die Bediensperre ist eingeschaltet.",
+          "checks": [
+            "Suchen Sie die Taste oder Tastenkombination zur Bediensperre im Modellhandbuch.",
+            "Entsperren Sie gemäß Handbuch und prüfen Sie die normale Tastenreaktion."
+          ],
+          "escalation": "Bleiben Tasten nach dokumentierter Entsperrung ohne Reaktion, Modell und Bedienfeldfoto an LG-Support übermitteln.",
+          "scope": "LG-US-Hilfe für Toplader; Bedienelemente und Schreibweise im Modellhandbuch bestätigen."
+        }
+      }
+    },
+    {
+      "id": "lg-top-load-washer-tcl",
+      "slug": "lg-top-load-washer-tcl",
+      "code": "tCL",
+      "aliases": [
+        "tcL"
+      ],
+      "category": "washer",
+      "brand": "LG",
+      "models": [
+        "LG US top-load washing machines covered by the top-load error guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — top-load washer error code list",
+          "url": "https://www.lg.com/us/support/help-library/lg-top-load-washer-error-code-list-CT10000010-20154403824104"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 통돌이 세탁기 tCL",
+          "summary": "통세척 시기를 알리는 표시입니다.",
+          "checks": [
+            "청소 코스를 선택하기 전 통 안에 빨래가 없는지 확인하세요.",
+            "모델별 통세척 코스·권장 세정제를 확인하고 세정제를 섞지 마세요."
+          ],
+          "escalation": "지정 통세척을 마쳐도 계속되면 LG 공식 지원에 완료 코스와 표시를 전달하세요.",
+          "scope": "LG 미국 통돌이 세탁기 제품군 안내입니다. 버튼과 코드 표기는 모델 설명서에서 확인하세요."
+        },
+        "en": {
+          "title": "LG top-load washer tCL",
+          "summary": "The washer is reminding you to clean the tub.",
+          "checks": [
+            "Check that no laundry remains before selecting a cleaning cycle.",
+            "Check the model-specific tub-clean cycle and cleaner; never mix cleaning products."
+          ],
+          "escalation": "If it persists after the prescribed tub-clean cycle, tell LG official support the completed cycle and remaining display.",
+          "scope": "LG US top-load washer guidance; confirm controls and code spelling in the model manual."
+        },
+        "es": {
+          "title": "Lavadora LG de carga superior tCL",
+          "summary": "La lavadora recuerda que debe limpiarse la cuba.",
+          "checks": [
+            "Compruebe que no quede ropa antes de seleccionar la limpieza.",
+            "Consulte el programa y limpiador del modelo; no mezcle productos."
+          ],
+          "escalation": "Si persiste tras la limpieza prescrita, informe a LG del programa completado y la indicación restante.",
+          "scope": "Guía de lavadoras LG de carga superior de EE. UU.; confirme mandos y código en su manual."
+        },
+        "zh": {
+          "title": "LG 顶开式洗衣机 tCL",
+          "summary": "这是内筒清洁提醒。",
+          "checks": [
+            "选择清洁程序前确认内筒中没有衣物。",
+            "查看型号对应筒清洁程序及清洁剂，不要混用清洁产品。"
+          ],
+          "escalation": "按要求完成筒清洁后仍提示，请向 LG 官方支持说明已完成程序与显示。",
+          "scope": "依据 LG 美国顶开式洗衣机指南；按型号说明书核对按键与代码。"
+        },
+        "ja": {
+          "title": "LG 縦型洗濯機 tCL",
+          "summary": "槽洗浄の時期を知らせる表示です。",
+          "checks": [
+            "洗浄コースの選択前に槽内に衣類がないか確認します。",
+            "機種別の槽洗浄コースと洗浄剤を確認し、洗浄剤を混ぜないでください。"
+          ],
+          "escalation": "指定の槽洗浄後も続く場合は、完了コースと表示を LG 公式サポートへ伝えます。",
+          "scope": "LG 米国の縦型洗濯機向けです。操作とコード表記は機種の説明書で確認します。"
+        },
+        "de": {
+          "title": "LG-Toplader tCL",
+          "summary": "Die Maschine erinnert an eine Trommelreinigung.",
+          "checks": [
+            "Prüfen Sie vor einem Reinigungsprogramm, dass keine Wäsche zurückbleibt.",
+            "Prüfen Sie Reinigungsprogramm und Reiniger für das Modell; mischen Sie keine Mittel."
+          ],
+          "escalation": "Bei Fortbestand nach vorgeschriebener Reinigung Programm und Anzeige an LG-Support melden.",
+          "scope": "LG-US-Hilfe für Toplader; Bedienelemente und Schreibweise im Modellhandbuch bestätigen."
+        }
+      }
+    },
+    {
+      "id": "lg-top-load-washer-pf",
+      "slug": "lg-top-load-washer-pf",
+      "code": "PF",
+      "aliases": [],
+      "category": "washer",
+      "brand": "LG",
+      "models": [
+        "LG US top-load washing machines covered by the top-load error guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — top-load washer error code list",
+          "url": "https://www.lg.com/us/support/help-library/lg-top-load-washer-error-code-list-CT10000010-20154403824104"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 통돌이 세탁기 PF",
+          "summary": "이전 동작 중 전원이 끊겼다는 알림입니다.",
+          "checks": [
+            "최근 정전·전원 중단과 코드 발생 시각이 일치하는지 확인하세요.",
+            "안전상 이상이 없을 때만 설명서의 정전 후 재개 조작을 확인하세요."
+          ],
+          "escalation": "정전 없이 반복되거나 전원이 불안정하면 재시도를 멈추고 LG 공식 서비스에 문의하세요. 배선은 직접 점검하지 마세요.",
+          "scope": "LG 미국 통돌이 세탁기 제품군 안내입니다. 버튼과 코드 표기는 모델 설명서에서 확인하세요."
+        },
+        "en": {
+          "title": "LG top-load washer PF",
+          "summary": "Power was interrupted during the previous operation.",
+          "checks": [
+            "Check whether the message coincides with a recent power interruption.",
+            "If no unsafe condition is present, consult the manual for resuming after an interruption."
+          ],
+          "escalation": "If it repeats without an outage or power is unstable, stop retrying and contact LG official service; do not inspect wiring yourself.",
+          "scope": "LG US top-load washer guidance; confirm controls and code spelling in the model manual."
+        },
+        "es": {
+          "title": "Lavadora LG de carga superior PF",
+          "summary": "La alimentación se interrumpió durante la operación anterior.",
+          "checks": [
+            "Compruebe si el aviso coincide con un corte reciente de corriente.",
+            "Si no observa riesgos, consulte cómo reanudar después de un corte."
+          ],
+          "escalation": "Si se repite sin apagón o la corriente es inestable, deje de reintentar y contacte LG; no revise el cableado.",
+          "scope": "Guía de lavadoras LG de carga superior de EE. UU.; confirme mandos y código en su manual."
+        },
+        "zh": {
+          "title": "LG 顶开式洗衣机 PF",
+          "summary": "上一次运行中供电曾中断。",
+          "checks": [
+            "确认提示是否出现在近期停电或断电之后。",
+            "未发现安全异常时，再查看说明书中断电后的恢复操作。"
+          ],
+          "escalation": "未停电却重复或供电不稳时，请停止重试并联系 LG 官方服务；勿自行检查线路。",
+          "scope": "依据 LG 美国顶开式洗衣机指南；按型号说明书核对按键与代码。"
+        },
+        "ja": {
+          "title": "LG 縦型洗濯機 PF",
+          "summary": "前の動作中に電源が途切れた通知です。",
+          "checks": [
+            "最近の停電や電源断と表示の時刻が一致するか確認します。",
+            "安全上の異常がない場合に限り、説明書で停電後の再開操作を確認します。"
+          ],
+          "escalation": "停電なしで再発する場合や電源不安定時は再試行を止め、LG 公式修理へ相談します。配線を自分で調べないでください。",
+          "scope": "LG 米国の縦型洗濯機向けです。操作とコード表記は機種の説明書で確認します。"
+        },
+        "de": {
+          "title": "LG-Toplader PF",
+          "summary": "Während des vorherigen Betriebs wurde die Stromversorgung unterbrochen.",
+          "checks": [
+            "Prüfen Sie, ob die Meldung zeitlich zu einer Stromunterbrechung passt.",
+            "Bei sicherem Gerätezustand lesen Sie im Handbuch nach, wie unterbrochener Betrieb fortgesetzt wird."
+          ],
+          "escalation": "Bei Wiederholung ohne Ausfall oder instabiler Versorgung keine weiteren Versuche; LG-Service kontaktieren und Verkabelung nicht selbst prüfen.",
+          "scope": "LG-US-Hilfe für Toplader; Bedienelemente und Schreibweise im Modellhandbuch bestätigen."
+        }
+      }
+    },
+    {
+      "id": "lg-front-load-washer-ie",
+      "slug": "lg-front-load-washer-ie",
+      "code": "IE",
+      "aliases": [
+        "E02",
+        "E10"
+      ],
+      "category": "washer",
+      "brand": "LG",
+      "models": [
+        "LG US front-load washing machines covered by the front-load error guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — front-load washer error code list",
+          "url": "https://www.lg.com/us/support/help-library/lg-front-load-washer-error-code-list--20155069413456"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 드럼 세탁기 IE",
+          "summary": "정해진 시간 안에 필요한 물높이에 도달하지 못했습니다.",
+          "checks": [
+            "주방 수도도 단수인지 확인하세요.",
+            "기기를 옮기지 말고 보이는 급수호스 눌림과 밸브 닫힘을 확인하세요."
+          ],
+          "escalation": "공급이 정상인데 지속되면 모델명과 관찰 내용을 제조사 공식 서비스에 전달하세요. 밸브·필터 분해는 맡기세요.",
+          "scope": "LG 미국 전면 투입 세탁기 안내입니다. 같은 코드의 통돌이·식기세척기와 구분하세요."
+        },
+        "en": {
+          "title": "LG front-load washer IE",
+          "summary": "The tub did not reach the required water level in time.",
+          "checks": [
+            "Check whether water is also unavailable at the kitchen faucet.",
+            "Without moving the appliance, look for a pinched inlet hose or closed supply valve."
+          ],
+          "escalation": "If supply is available but the code persists, report model and observations to official manufacturer service. Leave valve/filter disassembly to service.",
+          "scope": "LG US front-load washer guidance; separate from top-load washers and dishwashers sharing this code."
+        },
+        "es": {
+          "title": "Lavadora LG de carga frontal IE",
+          "summary": "La cuba no alcanzó a tiempo el nivel de agua necesario.",
+          "checks": [
+            "Compruebe si tampoco sale agua del grifo de cocina.",
+            "Sin mover el aparato, observe si la entrada está aplastada o la llave cerrada."
+          ],
+          "escalation": "Si hay suministro pero persiste, comunique modelo y observaciones al servicio oficial. Deje el desmontaje de válvulas y filtros al técnico.",
+          "scope": "Guía estadounidense de lavadoras LG de carga frontal; distinta de lavadoras superiores y lavavajillas con ese código."
+        },
+        "zh": {
+          "title": "LG 前开式洗衣机 IE",
+          "summary": "规定时间内未达到所需水位。",
+          "checks": [
+            "检查厨房水龙头是否也停水。",
+            "不要移动设备，查看可见进水管是否受压、阀门是否关闭。"
+          ],
+          "escalation": "供水正常仍报错时，将型号与观察结果交给品牌官方服务；阀门及滤网拆卸交由专业人员。",
+          "scope": "依据 LG 美国前开式洗衣机指南；勿与同代码的顶开式洗衣机或洗碗机混用。"
+        },
+        "ja": {
+          "title": "LG ドラム式洗濯機 IE",
+          "summary": "所定時間内に必要な水位へ達していません。",
+          "checks": [
+            "台所の蛇口も断水しているか確認します。",
+            "本体を動かさず、見える給水ホースのつぶれや給水栓の閉まりを確認します。"
+          ],
+          "escalation": "給水があるのに続く場合、機種名と観察内容をメーカー公式修理へ伝えます。弁やフィルターの分解は任せます。",
+          "scope": "LG 米国のドラム式洗濯機向けです。同コードの縦型洗濯機や食洗機とは区別します。"
+        },
+        "de": {
+          "title": "LG-Frontlader IE",
+          "summary": "Der nötige Wasserstand wurde nicht rechtzeitig erreicht.",
+          "checks": [
+            "Prüfen Sie, ob auch am Küchenhahn Wasser fehlt.",
+            "Prüfen Sie ohne Verschieben des Geräts sichtbare Schlauchquetschungen und ein geschlossenes Zulaufventil."
+          ],
+          "escalation": "Bei vorhandener Versorgung und anhaltendem Code Modell und Beobachtungen dem offiziellen Service melden. Ventil-/Filterausbau dem Service überlassen.",
+          "scope": "Für LG-US-Frontlader; getrennt von Topladern und Geschirrspülern mit gleichem Code betrachten."
+        }
+      }
+    },
+    {
+      "id": "lg-front-load-washer-oe",
+      "slug": "lg-front-load-washer-oe",
+      "code": "OE",
+      "aliases": [
+        "E03",
+        "E21"
+      ],
+      "category": "washer",
+      "brand": "LG",
+      "models": [
+        "LG US front-load washing machines covered by the front-load error guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — front-load washer error code list",
+          "url": "https://www.lg.com/us/support/help-library/lg-front-load-washer-error-code-list--20155069413456"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 드럼 세탁기 OE",
+          "summary": "세탁에 사용한 물을 배출하지 못했습니다.",
+          "checks": [
+            "제품을 당기거나 호스를 분리하지 말고 보이는 배수호스 눌림을 살펴보세요.",
+            "표시 전체, 발생 코스와 라벨의 모델명을 기록하세요."
+          ],
+          "escalation": "반복되면 제조사 공식 서비스에 잔수와 호스 상태를 전달하세요. 공용 배수 막힘은 건물 관리·배관 업체에 문의하세요.",
+          "scope": "LG 미국 전면 투입 세탁기 안내입니다. 같은 코드의 통돌이·식기세척기와 구분하세요."
+        },
+        "en": {
+          "title": "LG front-load washer OE",
+          "summary": "The wash water could not be drained.",
+          "checks": [
+            "Inspect the visible drain hose for compression without pulling out the appliance or disconnecting hoses.",
+            "Record the complete display, active cycle and model from its label."
+          ],
+          "escalation": "For recurrence, report retained water and hose condition to official manufacturer service. A shared blocked drain requires building maintenance or a plumber.",
+          "scope": "LG US front-load washer guidance; separate from top-load washers and dishwashers sharing this code."
+        },
+        "es": {
+          "title": "Lavadora LG de carga frontal OE",
+          "summary": "No se ha podido evacuar el agua del lavado.",
+          "checks": [
+            "Revise el desagüe visible sin extraer el aparato ni desconectar tubos.",
+            "Anote pantalla completa, programa activo y modelo de la etiqueta."
+          ],
+          "escalation": "Si se repite, informe al servicio oficial sobre agua retenida y manguera. Para un desagüe común atascado, contacte mantenimiento o fontanería.",
+          "scope": "Guía estadounidense de lavadoras LG de carga frontal; distinta de lavadoras superiores y lavavajillas con ese código."
+        },
+        "zh": {
+          "title": "LG 前开式洗衣机 OE",
+          "summary": "洗涤用水未能排出。",
+          "checks": [
+            "查看外露排水管是否受压，不要拉出设备或拆开管道。",
+            "记录完整显示内容、当时程序及标签型号。"
+          ],
+          "escalation": "反复出现时向品牌官方服务说明积水及管道情况；共用排水堵塞请联系物业或管道服务。",
+          "scope": "依据 LG 美国前开式洗衣机指南；勿与同代码的顶开式洗衣机或洗碗机混用。"
+        },
+        "ja": {
+          "title": "LG ドラム式洗濯機 OE",
+          "summary": "洗濯に使った水を排出できていません。",
+          "checks": [
+            "本体を引き出したりホースを外したりせず、見える排水ホースのつぶれを確認します。",
+            "表示全体、発生コース、ラベルの機種名を記録します。"
+          ],
+          "escalation": "再発する場合は残水とホース状態を公式修理へ伝えます。共通排水の詰まりは管理者や配管業者へ相談します。",
+          "scope": "LG 米国のドラム式洗濯機向けです。同コードの縦型洗濯機や食洗機とは区別します。"
+        },
+        "de": {
+          "title": "LG-Frontlader OE",
+          "summary": "Das Waschwasser konnte nicht abgeführt werden.",
+          "checks": [
+            "Prüfen Sie den sichtbaren Ablaufschlauch auf Quetschungen, ohne Gerät oder Schläuche auszubauen.",
+            "Notieren Sie vollständige Anzeige, laufendes Programm und Modell vom Typenschild."
+          ],
+          "escalation": "Bei Wiederholung Restwasser und Schlauchzustand dem offiziellen Service melden. Gemeinsame Abflussverstopfungen an Hausverwaltung oder Sanitärbetrieb melden.",
+          "scope": "Für LG-US-Frontlader; getrennt von Topladern und Geschirrspülern mit gleichem Code betrachten."
+        }
+      }
+    },
+    {
+      "id": "lg-front-load-washer-ue",
+      "slug": "lg-front-load-washer-ue",
+      "code": "UE",
+      "aliases": [],
+      "category": "washer",
+      "brand": "LG",
+      "models": [
+        "LG US front-load washing machines covered by the front-load error guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — front-load washer error code list",
+          "url": "https://www.lg.com/us/support/help-library/lg-front-load-washer-error-code-list--20155069413456"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 드럼 세탁기 UE",
+          "summary": "통 안 빨래의 무게 분포가 불균형합니다.",
+          "checks": [
+            "일시정지 후 통 정지와 정상 해제를 기다린 뒤 엉킨 빨래를 고르게 펴세요.",
+            "큰 빨래의 무게와 선택 코스가 모델 설명서에 맞는지 확인하세요."
+          ],
+          "escalation": "적정 빨래·코스에서도 반복되거나 진동이 심하면 사용을 멈추고 제조사 공식 서비스에 설치 상태와 코스를 전달하세요.",
+          "scope": "LG 미국 전면 투입 세탁기 안내입니다. 같은 코드의 통돌이·식기세척기와 구분하세요."
+        },
+        "en": {
+          "title": "LG front-load washer UE",
+          "summary": "Laundry weight is unevenly distributed in the drum.",
+          "checks": [
+            "Pause; wait for drum standstill and normal unlocking before redistributing tangled laundry.",
+            "Check the model manual for the correct cycle and load limits for bulky items."
+          ],
+          "escalation": "If it repeats with suitable laundry/cycle or vibration is severe, stop use and report installation conditions and cycle to official manufacturer service.",
+          "scope": "LG US front-load washer guidance; separate from top-load washers and dishwashers sharing this code."
+        },
+        "es": {
+          "title": "Lavadora LG de carga frontal UE",
+          "summary": "El peso de la ropa está mal repartido en el tambor.",
+          "checks": [
+            "Pause y espere la parada y el desbloqueo normal antes de repartir la ropa enredada.",
+            "Consulte el manual para elegir programa y carga adecuados para prendas voluminosas."
+          ],
+          "escalation": "Si se repite con carga/programa adecuados o vibra mucho, deje de usarla e informe al servicio oficial sobre instalación y programa.",
+          "scope": "Guía estadounidense de lavadoras LG de carga frontal; distinta de lavadoras superiores y lavavajillas con ese código."
+        },
+        "zh": {
+          "title": "LG 前开式洗衣机 UE",
+          "summary": "筒内衣物重量分布不均。",
+          "checks": [
+            "暂停后等待内筒停止、门锁正常解除，再将缠绕衣物摊匀。",
+            "按型号说明书确认大件衣物所需程序与装载限制。"
+          ],
+          "escalation": "合适负载与程序下仍重复，或剧烈振动时，请停用并向官方服务说明安装状态与程序。",
+          "scope": "依据 LG 美国前开式洗衣机指南；勿与同代码的顶开式洗衣机或洗碗机混用。"
+        },
+        "ja": {
+          "title": "LG ドラム式洗濯機 UE",
+          "summary": "槽内の衣類の重さが偏っています。",
+          "checks": [
+            "一時停止し、槽停止と正常な解錠を待ってから、絡んだ衣類を均等に広げます。",
+            "大物の衣類について、コースと投入量が機種の説明書に合うか確認します。"
+          ],
+          "escalation": "適切な衣類・コースでも再発する場合や激しい振動は使用を止め、設置状態とコースを公式修理へ伝えます。",
+          "scope": "LG 米国のドラム式洗濯機向けです。同コードの縦型洗濯機や食洗機とは区別します。"
+        },
+        "de": {
+          "title": "LG-Frontlader UE",
+          "summary": "Das Wäschegewicht ist in der Trommel ungleich verteilt.",
+          "checks": [
+            "Pausieren Sie; verteilen Sie Wäsche erst nach Trommelstillstand und regulärer Entriegelung.",
+            "Prüfen Sie im Modellhandbuch Programm und Beladungsgrenzen für schwere Einzelstücke."
+          ],
+          "escalation": "Bei Wiederholung mit geeigneter Beladung oder starker Vibration Nutzung beenden und Aufstellung sowie Programm dem offiziellen Service melden.",
+          "scope": "Für LG-US-Frontlader; getrennt von Topladern und Geschirrspülern mit gleichem Code betrachten."
+        }
+      }
+    },
+    {
+      "id": "lg-front-load-washer-le",
+      "slug": "lg-front-load-washer-le",
+      "code": "LE",
+      "aliases": [],
+      "category": "washer",
+      "brand": "LG",
+      "models": [
+        "LG US front-load washing machines covered by the front-load error guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — front-load washer error code list",
+          "url": "https://www.lg.com/us/support/help-library/lg-front-load-washer-error-code-list--20155069413456"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 드럼 세탁기 LE",
+          "summary": "통 회전이 정상적으로 이루어지지 않습니다.",
+          "checks": [
+            "전원을 끄고 통 정지·정상 해제를 기다린 뒤 과도한 적재를 줄이세요.",
+            "틈에 손이나 도구를 넣지 말고 입구에서 보이는 이물질만 살펴보세요."
+          ],
+          "escalation": "줄인 부하에서도 반복되거나 이물질이 끼었으면 사용을 멈추고 LG 공식 서비스에 맡기세요. 모터·패널을 열지 마세요.",
+          "scope": "LG 미국 전면 투입 세탁기 안내입니다. 같은 코드의 통돌이·식기세척기와 구분하세요."
+        },
+        "en": {
+          "title": "LG front-load washer LE",
+          "summary": "The drum is unable to rotate normally.",
+          "checks": [
+            "Switch off; wait for standstill and normal unlocking, then reduce an excessive load.",
+            "Look for visible foreign objects from the opening; do not reach into gaps or use tools."
+          ],
+          "escalation": "If it recurs with reduced load or an object is trapped, stop use and contact LG official service; do not open motors or panels.",
+          "scope": "LG US front-load washer guidance; separate from top-load washers and dishwashers sharing this code."
+        },
+        "es": {
+          "title": "Lavadora LG de carga frontal LE",
+          "summary": "El tambor no puede girar con normalidad.",
+          "checks": [
+            "Apague, espere la parada y desbloqueo normal, y reduzca la carga excesiva.",
+            "Observe objetos desde la abertura; no introduzca manos en huecos ni use herramientas."
+          ],
+          "escalation": "Si reaparece con menos carga o hay un objeto atrapado, deje de usarla y contacte LG; no abra motor ni paneles.",
+          "scope": "Guía estadounidense de lavadoras LG de carga frontal; distinta de lavadoras superiores y lavavajillas con ese código."
+        },
+        "zh": {
+          "title": "LG 前开式洗衣机 LE",
+          "summary": "内筒无法正常转动。",
+          "checks": [
+            "关机并等待停止、正常解锁后，减少过量衣物。",
+            "只从门口观察可见异物，不要将手或工具伸入缝隙。"
+          ],
+          "escalation": "减载后仍重复或异物卡住时，请停用并联系 LG 官方服务；勿打开电机或面板。",
+          "scope": "依据 LG 美国前开式洗衣机指南；勿与同代码的顶开式洗衣机或洗碗机混用。"
+        },
+        "ja": {
+          "title": "LG ドラム式洗濯機 LE",
+          "summary": "槽が正常に回転できません。",
+          "checks": [
+            "電源を切り、槽停止と正常な解錠を待ってから入れ過ぎた衣類を減らします。",
+            "開口部から見える異物のみ確認し、隙間に手や工具を入れないでください。"
+          ],
+          "escalation": "負荷を減らしても再発する場合や異物が挟まっている場合は使用を止め LG 公式修理へ依頼します。モーターやパネルを開けないでください。",
+          "scope": "LG 米国のドラム式洗濯機向けです。同コードの縦型洗濯機や食洗機とは区別します。"
+        },
+        "de": {
+          "title": "LG-Frontlader LE",
+          "summary": "Die Trommel kann sich nicht normal drehen.",
+          "checks": [
+            "Schalten Sie aus; warten Sie auf Stillstand und Entriegelung und verringern Sie Überladung.",
+            "Sichten Sie Fremdkörper nur durch die Öffnung; greifen Sie nicht in Spalten und nutzen Sie keine Werkzeuge."
+          ],
+          "escalation": "Bei Wiederholung mit geringerer Last oder eingeklemmten Gegenständen Nutzung beenden und LG-Service kontaktieren; Motoren und Verkleidungen geschlossen lassen.",
+          "scope": "Für LG-US-Frontlader; getrennt von Topladern und Geschirrspülern mit gleichem Code betrachten."
+        }
+      }
+    },
+    {
+      "id": "lg-refrigerator-cf",
+      "slug": "lg-refrigerator-cf",
+      "code": "CF",
+      "aliases": [],
+      "category": "refrigerator",
+      "brand": "LG",
+      "models": [
+        "LG refrigerators with an electronic code display covered by the digital/analog guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — refrigerator digital and analog error codes",
+          "url": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 냉장고 CF",
+          "summary": "응축기 쪽 냉각팬 계통의 이상입니다.",
+          "checks": [
+            "설정온도와 오류를 구분해 전체 표시와 모델명을 기록하세요.",
+            "식품이 평소보다 따뜻한지 확인하고 냉각이 불확실하면 다른 정상 냉장고로 옮기세요."
+          ],
+          "escalation": "LG 공식 서비스의 내부 계통 진단이 필요합니다. 전체 코드와 냉각 상태를 전달하고 부품·센서·배선을 직접 다루지 마세요.",
+          "scope": "LG 냉장고 일반 공식 안내입니다. 접두사와 표시 위치는 모델마다 달라 전체 코드와 설명서 대조가 필요합니다."
+        },
+        "en": {
+          "title": "LG refrigerator CF",
+          "summary": "The condenser-cooling fan system has a fault indication.",
+          "checks": [
+            "Distinguish set temperatures from the error; record the full display and model.",
+            "Check for unusually warm food; move perishables to working refrigeration if cooling is uncertain."
+          ],
+          "escalation": "LG official service must diagnose this internal system. Provide the full code and cooling observations; do not access parts, sensors or wiring.",
+          "scope": "General official LG refrigerator guidance; prefixes and display positions vary. Match the full code to the model manual."
+        },
+        "es": {
+          "title": "Frigorífico LG CF",
+          "summary": "Indicación de fallo en el ventilador del condensador.",
+          "checks": [
+            "Distinga temperaturas ajustadas del código; anote pantalla completa y modelo.",
+            "Observe si los alimentos están más calientes; traslade los perecederos a otro frigorífico si duda del frío."
+          ],
+          "escalation": "El servicio oficial LG debe diagnosticar el sistema interno. Facilite código completo y estado del frío; no manipule piezas, sensores ni cables.",
+          "scope": "Guía general oficial de frigoríficos LG; prefijos y posiciones varían. Coteje el código completo con el manual."
+        },
+        "zh": {
+          "title": "LG 冰箱 CF",
+          "summary": "冷凝器散热风扇系统异常。",
+          "checks": [
+            "区分设定温度与错误代码，记录完整显示及型号。",
+            "查看食物是否异常变暖；制冷不确定时将易腐食品转移至正常冷藏设备。"
+          ],
+          "escalation": "此内部系统需 LG 官方服务诊断；提供完整代码与制冷状态，勿处理内部零件、传感器或线路。",
+          "scope": "LG 冰箱官方通用指南；前缀及显示位置随型号变化，须核对完整代码与说明书。"
+        },
+        "ja": {
+          "title": "LG 冷蔵庫 CF",
+          "summary": "凝縮器側の冷却ファン系統の異常です。",
+          "checks": [
+            "設定温度とエラーを区別し、表示全体と機種名を記録します。",
+            "食品が普段より温まっていないか確認し、冷却が不確かなら生鮮食品を正常な冷蔵庫へ移します。"
+          ],
+          "escalation": "内部系統は LG 公式修理の診断が必要です。完全なコードと冷却状態を伝え、部品・センサー・配線に触れないでください。",
+          "scope": "LG 冷蔵庫の一般案内です。接頭辞や表示位置は機種で異なるため完全なコードを説明書と照合します。"
+        },
+        "de": {
+          "title": "LG-Kühlschrank CF",
+          "summary": "Fehlermeldung im Lüftersystem der Kondensatorkühlung.",
+          "checks": [
+            "Unterscheiden Sie Solltemperaturen von der Fehlermeldung; notieren Sie Anzeige und Modell.",
+            "Prüfen Sie, ob Lebensmittel ungewöhnlich warm sind; lagern Sie Verderbliches bei unklarer Kühlung anderweitig gekühlt."
+          ],
+          "escalation": "LG-Service muss das interne System diagnostizieren. Vollständigen Code und Kühlzustand melden; Bauteile, Sensoren und Leitungen nicht berühren.",
+          "scope": "Allgemeine LG-Kühlschrankhilfe; Präfixe und Positionen variieren. Vollständigen Code mit Modellhandbuch abgleichen."
+        }
+      }
+    },
+    {
+      "id": "lg-refrigerator-co",
+      "slug": "lg-refrigerator-co",
+      "code": "CO",
+      "aliases": [],
+      "category": "refrigerator",
+      "brand": "LG",
+      "models": [
+        "LG refrigerators with an electronic code display covered by the digital/analog guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — refrigerator digital and analog error codes",
+          "url": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 냉장고 CO",
+          "summary": "메인 제어부와 표시부 사이 통신 이상입니다.",
+          "checks": [
+            "설정온도와 오류를 구분해 전체 표시와 모델명을 기록하세요.",
+            "식품이 평소보다 따뜻한지 확인하고 냉각이 불확실하면 다른 정상 냉장고로 옮기세요."
+          ],
+          "escalation": "LG 공식 서비스의 내부 계통 진단이 필요합니다. 전체 코드와 냉각 상태를 전달하고 부품·센서·배선을 직접 다루지 마세요.",
+          "scope": "LG 냉장고 일반 공식 안내입니다. 접두사와 표시 위치는 모델마다 달라 전체 코드와 설명서 대조가 필요합니다."
+        },
+        "en": {
+          "title": "LG refrigerator CO",
+          "summary": "Communication between the main control and display is faulty.",
+          "checks": [
+            "Distinguish set temperatures from the error; record the full display and model.",
+            "Check for unusually warm food; move perishables to working refrigeration if cooling is uncertain."
+          ],
+          "escalation": "LG official service must diagnose this internal system. Provide the full code and cooling observations; do not access parts, sensors or wiring.",
+          "scope": "General official LG refrigerator guidance; prefixes and display positions vary. Match the full code to the model manual."
+        },
+        "es": {
+          "title": "Frigorífico LG CO",
+          "summary": "Falla la comunicación entre el control principal y la pantalla.",
+          "checks": [
+            "Distinga temperaturas ajustadas del código; anote pantalla completa y modelo.",
+            "Observe si los alimentos están más calientes; traslade los perecederos a otro frigorífico si duda del frío."
+          ],
+          "escalation": "El servicio oficial LG debe diagnosticar el sistema interno. Facilite código completo y estado del frío; no manipule piezas, sensores ni cables.",
+          "scope": "Guía general oficial de frigoríficos LG; prefijos y posiciones varían. Coteje el código completo con el manual."
+        },
+        "zh": {
+          "title": "LG 冰箱 CO",
+          "summary": "主控制器与显示屏通信异常。",
+          "checks": [
+            "区分设定温度与错误代码，记录完整显示及型号。",
+            "查看食物是否异常变暖；制冷不确定时将易腐食品转移至正常冷藏设备。"
+          ],
+          "escalation": "此内部系统需 LG 官方服务诊断；提供完整代码与制冷状态，勿处理内部零件、传感器或线路。",
+          "scope": "LG 冰箱官方通用指南；前缀及显示位置随型号变化，须核对完整代码与说明书。"
+        },
+        "ja": {
+          "title": "LG 冷蔵庫 CO",
+          "summary": "メイン制御部と表示部の通信異常です。",
+          "checks": [
+            "設定温度とエラーを区別し、表示全体と機種名を記録します。",
+            "食品が普段より温まっていないか確認し、冷却が不確かなら生鮮食品を正常な冷蔵庫へ移します。"
+          ],
+          "escalation": "内部系統は LG 公式修理の診断が必要です。完全なコードと冷却状態を伝え、部品・センサー・配線に触れないでください。",
+          "scope": "LG 冷蔵庫の一般案内です。接頭辞や表示位置は機種で異なるため完全なコードを説明書と照合します。"
+        },
+        "de": {
+          "title": "LG-Kühlschrank CO",
+          "summary": "Die Kommunikation zwischen Hauptsteuerung und Anzeige ist gestört.",
+          "checks": [
+            "Unterscheiden Sie Solltemperaturen von der Fehlermeldung; notieren Sie Anzeige und Modell.",
+            "Prüfen Sie, ob Lebensmittel ungewöhnlich warm sind; lagern Sie Verderbliches bei unklarer Kühlung anderweitig gekühlt."
+          ],
+          "escalation": "LG-Service muss das interne System diagnostizieren. Vollständigen Code und Kühlzustand melden; Bauteile, Sensoren und Leitungen nicht berühren.",
+          "scope": "Allgemeine LG-Kühlschrankhilfe; Präfixe und Positionen variieren. Vollständigen Code mit Modellhandbuch abgleichen."
+        }
+      }
+    },
+    {
+      "id": "lg-refrigerator-fs",
+      "slug": "lg-refrigerator-fs",
+      "code": "FS",
+      "aliases": [],
+      "category": "refrigerator",
+      "brand": "LG",
+      "models": [
+        "LG refrigerators with an electronic code display covered by the digital/analog guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — refrigerator digital and analog error codes",
+          "url": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 냉장고 FS",
+          "summary": "냉동실 온도센서 계통의 이상입니다.",
+          "checks": [
+            "설정온도와 오류를 구분해 전체 표시와 모델명을 기록하세요.",
+            "식품이 평소보다 따뜻한지 확인하고 냉각이 불확실하면 다른 정상 냉장고로 옮기세요."
+          ],
+          "escalation": "LG 공식 서비스의 내부 계통 진단이 필요합니다. 전체 코드와 냉각 상태를 전달하고 부품·센서·배선을 직접 다루지 마세요.",
+          "scope": "LG 냉장고 일반 공식 안내입니다. 접두사와 표시 위치는 모델마다 달라 전체 코드와 설명서 대조가 필요합니다."
+        },
+        "en": {
+          "title": "LG refrigerator FS",
+          "summary": "The freezer temperature-sensor system has a fault indication.",
+          "checks": [
+            "Distinguish set temperatures from the error; record the full display and model.",
+            "Check for unusually warm food; move perishables to working refrigeration if cooling is uncertain."
+          ],
+          "escalation": "LG official service must diagnose this internal system. Provide the full code and cooling observations; do not access parts, sensors or wiring.",
+          "scope": "General official LG refrigerator guidance; prefixes and display positions vary. Match the full code to the model manual."
+        },
+        "es": {
+          "title": "Frigorífico LG FS",
+          "summary": "Indicación de fallo en el sensor de temperatura del congelador.",
+          "checks": [
+            "Distinga temperaturas ajustadas del código; anote pantalla completa y modelo.",
+            "Observe si los alimentos están más calientes; traslade los perecederos a otro frigorífico si duda del frío."
+          ],
+          "escalation": "El servicio oficial LG debe diagnosticar el sistema interno. Facilite código completo y estado del frío; no manipule piezas, sensores ni cables.",
+          "scope": "Guía general oficial de frigoríficos LG; prefijos y posiciones varían. Coteje el código completo con el manual."
+        },
+        "zh": {
+          "title": "LG 冰箱 FS",
+          "summary": "冷冻室温度传感器系统异常。",
+          "checks": [
+            "区分设定温度与错误代码，记录完整显示及型号。",
+            "查看食物是否异常变暖；制冷不确定时将易腐食品转移至正常冷藏设备。"
+          ],
+          "escalation": "此内部系统需 LG 官方服务诊断；提供完整代码与制冷状态，勿处理内部零件、传感器或线路。",
+          "scope": "LG 冰箱官方通用指南；前缀及显示位置随型号变化，须核对完整代码与说明书。"
+        },
+        "ja": {
+          "title": "LG 冷蔵庫 FS",
+          "summary": "冷凍室温度センサー系統の異常です。",
+          "checks": [
+            "設定温度とエラーを区別し、表示全体と機種名を記録します。",
+            "食品が普段より温まっていないか確認し、冷却が不確かなら生鮮食品を正常な冷蔵庫へ移します。"
+          ],
+          "escalation": "内部系統は LG 公式修理の診断が必要です。完全なコードと冷却状態を伝え、部品・センサー・配線に触れないでください。",
+          "scope": "LG 冷蔵庫の一般案内です。接頭辞や表示位置は機種で異なるため完全なコードを説明書と照合します。"
+        },
+        "de": {
+          "title": "LG-Kühlschrank FS",
+          "summary": "Fehlermeldung im Temperatursensorsystem des Gefrierteils.",
+          "checks": [
+            "Unterscheiden Sie Solltemperaturen von der Fehlermeldung; notieren Sie Anzeige und Modell.",
+            "Prüfen Sie, ob Lebensmittel ungewöhnlich warm sind; lagern Sie Verderbliches bei unklarer Kühlung anderweitig gekühlt."
+          ],
+          "escalation": "LG-Service muss das interne System diagnostizieren. Vollständigen Code und Kühlzustand melden; Bauteile, Sensoren und Leitungen nicht berühren.",
+          "scope": "Allgemeine LG-Kühlschrankhilfe; Präfixe und Positionen variieren. Vollständigen Code mit Modellhandbuch abgleichen."
+        }
+      }
+    },
+    {
+      "id": "lg-refrigerator-er-ff",
+      "slug": "lg-refrigerator-er-ff",
+      "code": "Er FF",
+      "aliases": [
+        "E FF",
+        "F"
+      ],
+      "category": "refrigerator",
+      "brand": "LG",
+      "models": [
+        "LG refrigerators with an electronic code display covered by the digital/analog guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — refrigerator Er FF / E FF / F",
+          "url": "https://www.lg.com/us/support/help-library/if-you-see-an-er-ff-e-ff-or-f-error-code-on-your-lg-refrigerator--20155452969338"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 냉장고 Er FF",
+          "summary": "냉동실 팬 작동 문제이며 성에가 관련될 수 있습니다.",
+          "checks": [
+            "문을 막는 포장·보이는 성에를 살펴보세요. 얼음을 도구나 열풍으로 제거하지 마세요.",
+            "식품이 평소보다 따뜻한지 확인하고 냉각이 불확실하면 다른 정상 냉장고로 옮기세요."
+          ],
+          "escalation": "성에·문 상태와 냉각 저하를 LG 공식 서비스에 전달하세요. 해동 전 식품 보관 계획과 모델별 지침을 먼저 확인하세요.",
+          "scope": "LG 냉장고 일반 공식 안내입니다. 접두사와 표시 위치는 모델마다 달라 전체 코드와 설명서 대조가 필요합니다."
+        },
+        "en": {
+          "title": "LG refrigerator Er FF",
+          "summary": "The freezer fan is not operating correctly; frost may be involved.",
+          "checks": [
+            "Look for packaging obstructing the door or visible frost; do not chip ice or use hot air.",
+            "Check for unusually warm food; move perishables to working refrigeration if cooling is uncertain."
+          ],
+          "escalation": "Report frost, door condition and cooling loss to LG official service. Before defrosting, arrange safe food storage and obtain the model-specific procedure.",
+          "scope": "General official LG refrigerator guidance; prefixes and display positions vary. Match the full code to the model manual."
+        },
+        "es": {
+          "title": "Frigorífico LG Er FF",
+          "summary": "El ventilador del congelador no funciona correctamente; puede haber escarcha.",
+          "checks": [
+            "Busque envases que impidan cerrar o escarcha visible; no pique hielo ni aplique aire caliente.",
+            "Observe si los alimentos están más calientes; traslade los perecederos a otro frigorífico si duda del frío."
+          ],
+          "escalation": "Informe a LG de escarcha, cierre y pérdida de frío. Antes de descongelar, organice conservación de alimentos y consulte el procedimiento del modelo.",
+          "scope": "Guía general oficial de frigoríficos LG; prefijos y posiciones varían. Coteje el código completo con el manual."
+        },
+        "zh": {
+          "title": "LG 冰箱 Er FF",
+          "summary": "冷冻室风扇运行异常，可能涉及结霜。",
+          "checks": [
+            "查看包装是否挡门及可见结霜情况；不要敲冰或使用热风。",
+            "查看食物是否异常变暖；制冷不确定时将易腐食品转移至正常冷藏设备。"
+          ],
+          "escalation": "向 LG 官方服务说明结霜、门状态与制冷下降；除霜前先安排食品储存并确认型号流程。",
+          "scope": "LG 冰箱官方通用指南；前缀及显示位置随型号变化，须核对完整代码与说明书。"
+        },
+        "ja": {
+          "title": "LG 冷蔵庫 Er FF",
+          "summary": "冷凍室ファンの動作異常で、霜が関係することがあります。",
+          "checks": [
+            "ドアを妨げる包装や見える霜を確認し、氷を削ったり熱風を当てたりしないでください。",
+            "食品が普段より温まっていないか確認し、冷却が不確かなら生鮮食品を正常な冷蔵庫へ移します。"
+          ],
+          "escalation": "霜・ドア・冷却低下を LG 公式修理へ伝えます。霜取り前に食品保管と機種別手順を確認してください。",
+          "scope": "LG 冷蔵庫の一般案内です。接頭辞や表示位置は機種で異なるため完全なコードを説明書と照合します。"
+        },
+        "de": {
+          "title": "LG-Kühlschrank Er FF",
+          "summary": "Der Gefrierteillüfter arbeitet nicht richtig; Reif kann beteiligt sein.",
+          "checks": [
+            "Achten Sie auf störende Verpackungen und sichtbaren Reif; schlagen Sie kein Eis ab und verwenden Sie keine Heißluft.",
+            "Prüfen Sie, ob Lebensmittel ungewöhnlich warm sind; lagern Sie Verderbliches bei unklarer Kühlung anderweitig gekühlt."
+          ],
+          "escalation": "Reif, Türzustand und Kühlverlust an LG-Service melden. Vor Abtauen sichere Lebensmittellagerung und modellspezifisches Vorgehen klären.",
+          "scope": "Allgemeine LG-Kühlschrankhilfe; Präfixe und Positionen variieren. Vollständigen Code mit Modellhandbuch abgleichen."
+        }
+      }
+    },
+    {
+      "id": "lg-dishwasher-oe",
+      "slug": "lg-dishwasher-oe",
+      "code": "OE",
+      "aliases": [],
+      "category": "dishwasher",
+      "brand": "LG",
+      "models": [
+        "LG US dishwashers displaying OE"
+      ],
+      "sources": [
+        {
+          "label": "LG US — dishwasher OE",
+          "url": "https://www.lg.com/us/support/help-library/lg-dishwashers-troubleshooting-an-oe-error-code-CT10000009-1440686618796"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 식기세척기 OE",
+          "summary": "식기세척기에서 배수 이상을 감지했습니다.",
+          "checks": [
+            "제품을 당기거나 호스를 분리하지 말고 보이는 배수호스 눌림을 살펴보세요.",
+            "연결된 싱크대도 배수가 느린지 확인하세요."
+          ],
+          "escalation": "반복되면 제조사 공식 서비스에 잔수와 호스 상태를 전달하세요. 공용 배수 막힘은 건물 관리·배관 업체에 문의하세요.",
+          "scope": "LG 미국 식기세척기 OE 안내입니다. 세탁기의 OE와 별개입니다."
+        },
+        "en": {
+          "title": "LG dishwasher OE",
+          "summary": "The dishwasher has detected a drainage problem.",
+          "checks": [
+            "Inspect the visible drain hose for compression without pulling out the appliance or disconnecting hoses.",
+            "Check whether the connected sink also drains slowly."
+          ],
+          "escalation": "For recurrence, report retained water and hose condition to official manufacturer service. A shared blocked drain requires building maintenance or a plumber.",
+          "scope": "LG US dishwasher OE guidance; separate from OE on washing machines."
+        },
+        "es": {
+          "title": "Lavavajillas LG OE",
+          "summary": "El lavavajillas ha detectado un problema de desagüe.",
+          "checks": [
+            "Revise el desagüe visible sin extraer el aparato ni desconectar tubos.",
+            "Observe si el fregadero conectado también desagua lentamente."
+          ],
+          "escalation": "Si se repite, informe al servicio oficial sobre agua retenida y manguera. Para un desagüe común atascado, contacte mantenimiento o fontanería.",
+          "scope": "Guía OE para lavavajillas LG de EE. UU.; distinta de OE en lavadoras."
+        },
+        "zh": {
+          "title": "LG 洗碗机 OE",
+          "summary": "洗碗机检测到排水异常。",
+          "checks": [
+            "查看外露排水管是否受压，不要拉出设备或拆开管道。",
+            "检查相连水槽是否也排水缓慢。"
+          ],
+          "escalation": "反复出现时向品牌官方服务说明积水及管道情况；共用排水堵塞请联系物业或管道服务。",
+          "scope": "依据 LG 美国洗碗机 OE 指南；与洗衣机 OE 分开解释。"
+        },
+        "ja": {
+          "title": "LG 食洗機 OE",
+          "summary": "食洗機が排水異常を検知しています。",
+          "checks": [
+            "本体を引き出したりホースを外したりせず、見える排水ホースのつぶれを確認します。",
+            "接続先の流しも排水が遅いか確認します。"
+          ],
+          "escalation": "再発する場合は残水とホース状態を公式修理へ伝えます。共通排水の詰まりは管理者や配管業者へ相談します。",
+          "scope": "LG 米国の食洗機 OE 案内です。洗濯機の OE とは別です。"
+        },
+        "de": {
+          "title": "LG-Geschirrspüler OE",
+          "summary": "Der Geschirrspüler hat eine Ablaufstörung erkannt.",
+          "checks": [
+            "Prüfen Sie den sichtbaren Ablaufschlauch auf Quetschungen, ohne Gerät oder Schläuche auszubauen.",
+            "Prüfen Sie, ob auch das angeschlossene Spülbecken langsam abläuft."
+          ],
+          "escalation": "Bei Wiederholung Restwasser und Schlauchzustand dem offiziellen Service melden. Gemeinsame Abflussverstopfungen an Hausverwaltung oder Sanitärbetrieb melden.",
+          "scope": "LG-US-Hilfe zu OE an Geschirrspülern; getrennt von OE an Waschmaschinen."
+        }
+      }
+    },
+    {
+      "id": "lg-dios-dishwasher-ie",
+      "slug": "lg-dios-dishwasher-ie",
+      "code": "IE",
+      "aliases": [],
+      "category": "dishwasher",
+      "brand": "LG",
+      "models": [
+        "LG DIOS dishwashers covered by the IE support article"
+      ],
+      "sources": [
+        {
+          "label": "LG US — DIOS dishwasher IE",
+          "url": "https://www.lg.com/us/support/help-library/lg-dios-dishwasher-dishwasher-an-ie-error-appears-on-the-display-CT10000009-20155103088326"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG DIOS 식기세척기 IE",
+          "summary": "필요한 양의 물이 공급되지 않았습니다.",
+          "checks": [
+            "주방 수도도 단수인지 확인하세요.",
+            "기기를 옮기지 말고 보이는 급수호스 눌림과 밸브 닫힘을 확인하세요."
+          ],
+          "escalation": "공급이 정상인데 지속되면 모델명과 관찰 내용을 제조사 공식 서비스에 전달하세요. 밸브·필터 분해는 맡기세요.",
+          "scope": "LG DIOS 식기세척기 IE 안내입니다. 국가·모델별 설치 조건은 해당 설명서로 확인하세요."
+        },
+        "en": {
+          "title": "LG DIOS dishwasher IE",
+          "summary": "The required amount of water has not been supplied.",
+          "checks": [
+            "Check whether water is also unavailable at the kitchen faucet.",
+            "Without moving the appliance, look for a pinched inlet hose or closed supply valve."
+          ],
+          "escalation": "If supply is available but the code persists, report model and observations to official manufacturer service. Leave valve/filter disassembly to service.",
+          "scope": "For the LG DIOS dishwasher IE article; verify local and model installation requirements in the matching manual."
+        },
+        "es": {
+          "title": "Lavavajillas LG DIOS IE",
+          "summary": "No se ha suministrado la cantidad de agua necesaria.",
+          "checks": [
+            "Compruebe si tampoco sale agua del grifo de cocina.",
+            "Sin mover el aparato, observe si la entrada está aplastada o la llave cerrada."
+          ],
+          "escalation": "Si hay suministro pero persiste, comunique modelo y observaciones al servicio oficial. Deje el desmontaje de válvulas y filtros al técnico.",
+          "scope": "Para el artículo IE de lavavajillas LG DIOS; consulte las condiciones locales y del modelo en su manual."
+        },
+        "zh": {
+          "title": "LG DIOS 洗碗机 IE",
+          "summary": "未供应所需水量。",
+          "checks": [
+            "检查厨房水龙头是否也停水。",
+            "不要移动设备，查看可见进水管是否受压、阀门是否关闭。"
+          ],
+          "escalation": "供水正常仍报错时，将型号与观察结果交给品牌官方服务；阀门及滤网拆卸交由专业人员。",
+          "scope": "适用于 LG DIOS 洗碗机 IE 文章；地区及型号安装要求以对应说明书为准。"
+        },
+        "ja": {
+          "title": "LG DIOS 食洗機 IE",
+          "summary": "必要量の水が供給されていません。",
+          "checks": [
+            "台所の蛇口も断水しているか確認します。",
+            "本体を動かさず、見える給水ホースのつぶれや給水栓の閉まりを確認します。"
+          ],
+          "escalation": "給水があるのに続く場合、機種名と観察内容をメーカー公式修理へ伝えます。弁やフィルターの分解は任せます。",
+          "scope": "LG DIOS 食洗機の IE 案内です。地域・機種別の設置条件は該当説明書で確認します。"
+        },
+        "de": {
+          "title": "LG-DIOS-Geschirrspüler IE",
+          "summary": "Die erforderliche Wassermenge wurde nicht zugeführt.",
+          "checks": [
+            "Prüfen Sie, ob auch am Küchenhahn Wasser fehlt.",
+            "Prüfen Sie ohne Verschieben des Geräts sichtbare Schlauchquetschungen und ein geschlossenes Zulaufventil."
+          ],
+          "escalation": "Bei vorhandener Versorgung und anhaltendem Code Modell und Beobachtungen dem offiziellen Service melden. Ventil-/Filterausbau dem Service überlassen.",
+          "scope": "Für den IE-Artikel zu LG-DIOS-Geschirrspülern; regionale und modellbezogene Einbauvorgaben im passenden Handbuch prüfen."
+        }
+      }
+    },
+    {
+      "id": "lg-top-load-washer-ue",
+      "slug": "lg-top-load-washer-ue",
+      "code": "UE",
+      "aliases": [
+        "uE",
+        "Ub"
+      ],
+      "category": "washer",
+      "brand": "LG",
+      "models": [
+        "LG US top-load washing machines covered by the top-load error guide"
+      ],
+      "sources": [
+        {
+          "label": "LG US — top-load washer UE / Ub",
+          "url": "https://www.lg.com/us/support/help-library/lg-washer-what-is-a-top-load-washing-machine-ueub-error-code-CT00000305-1394563702295"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG 통돌이 세탁기 UE",
+          "summary": "빨래의 균형을 맞추는 중이거나 조정이 필요합니다. 소문자·대문자에 따라 단계가 다릅니다.",
+          "checks": [
+            "일시정지 후 통 정지와 정상 해제를 기다린 뒤 엉킨 빨래를 고르게 펴세요.",
+            "큰 빨래의 무게와 선택 코스가 모델 설명서에 맞는지 확인하세요."
+          ],
+          "escalation": "적정 빨래·코스에서도 반복되거나 진동이 심하면 사용을 멈추고 제조사 공식 서비스에 설치 상태와 코스를 전달하세요.",
+          "scope": "LG 미국 통돌이 세탁기 제품군 안내입니다. 버튼과 코드 표기는 모델 설명서에서 확인하세요."
+        },
+        "en": {
+          "title": "LG top-load washer UE",
+          "summary": "The washer is rebalancing or needs load adjustment; lowercase and uppercase displays mark different stages.",
+          "checks": [
+            "Pause; wait for drum standstill and normal unlocking before redistributing tangled laundry.",
+            "Check the model manual for the correct cycle and load limits for bulky items."
+          ],
+          "escalation": "If it repeats with suitable laundry/cycle or vibration is severe, stop use and report installation conditions and cycle to official manufacturer service.",
+          "scope": "LG US top-load washer guidance; confirm controls and code spelling in the model manual."
+        },
+        "es": {
+          "title": "Lavadora LG de carga superior UE",
+          "summary": "Está equilibrando la carga o requiere repartirla; mayúsculas y minúsculas distinguen etapas.",
+          "checks": [
+            "Pause y espere la parada y el desbloqueo normal antes de repartir la ropa enredada.",
+            "Consulte el manual para elegir programa y carga adecuados para prendas voluminosas."
+          ],
+          "escalation": "Si se repite con carga/programa adecuados o vibra mucho, deje de usarla e informe al servicio oficial sobre instalación y programa.",
+          "scope": "Guía de lavadoras LG de carga superior de EE. UU.; confirme mandos y código en su manual."
+        },
+        "zh": {
+          "title": "LG 顶开式洗衣机 UE",
+          "summary": "设备正在调整平衡或需要调整衣物；大小写显示对应不同阶段。",
+          "checks": [
+            "暂停后等待内筒停止、门锁正常解除，再将缠绕衣物摊匀。",
+            "按型号说明书确认大件衣物所需程序与装载限制。"
+          ],
+          "escalation": "合适负载与程序下仍重复，或剧烈振动时，请停用并向官方服务说明安装状态与程序。",
+          "scope": "依据 LG 美国顶开式洗衣机指南；按型号说明书核对按键与代码。"
+        },
+        "ja": {
+          "title": "LG 縦型洗濯機 UE",
+          "summary": "偏りを補正中、または調整が必要です。大文字・小文字で段階が異なります。",
+          "checks": [
+            "一時停止し、槽停止と正常な解錠を待ってから、絡んだ衣類を均等に広げます。",
+            "大物の衣類について、コースと投入量が機種の説明書に合うか確認します。"
+          ],
+          "escalation": "適切な衣類・コースでも再発する場合や激しい振動は使用を止め、設置状態とコースを公式修理へ伝えます。",
+          "scope": "LG 米国の縦型洗濯機向けです。操作とコード表記は機種の説明書で確認します。"
+        },
+        "de": {
+          "title": "LG-Toplader UE",
+          "summary": "Die Maschine gleicht Unwucht aus oder benötigt Lastkorrektur; Groß- und Kleinschreibung unterscheiden Phasen.",
+          "checks": [
+            "Pausieren Sie; verteilen Sie Wäsche erst nach Trommelstillstand und regulärer Entriegelung.",
+            "Prüfen Sie im Modellhandbuch Programm und Beladungsgrenzen für schwere Einzelstücke."
+          ],
+          "escalation": "Bei Wiederholung mit geeigneter Beladung oder starker Vibration Nutzung beenden und Aufstellung sowie Programm dem offiziellen Service melden.",
+          "scope": "LG-US-Hilfe für Toplader; Bedienelemente und Schreibweise im Modellhandbuch bestätigen."
+        }
+      }
+    },
+    {
+      "id": "lg-sidekick-e7",
+      "slug": "lg-sidekick-e7",
+      "code": "E7",
+      "aliases": [],
+      "category": "washer",
+      "brand": "LG",
+      "models": [
+        "LG SideKick pedestal washers under a compatible LG front-load washer"
+      ],
+      "sources": [
+        {
+          "label": "LG US — SideKick pedestal washer codes",
+          "url": "https://www.lg.com/us/support/help-library/error-codes-pedestal-washer--20150103764784"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "LG SideKick 세탁기 E7",
+          "summary": "적층 설치 감지 또는 적층 스위치 관련 상태입니다.",
+          "checks": [
+            "SideKick 위 세탁기가 설명서에 허용된 설치 조합인지 확인하세요.",
+            "기기를 들지 말고 보이는 설치 어긋남만 기록하세요. 적층 스위치를 누르거나 고정하지 마세요."
+          ],
+          "escalation": "LG 공식 설치·서비스에 상하부 모델과 설치 상태를 전달하세요. 적층 스위치 조정·우회나 기기 인양을 하지 마세요.",
+          "scope": "LG SideKick 페데스털 세탁기 전용입니다. 다른 세탁기의 E7로 확대하지 마세요."
+        },
+        "en": {
+          "title": "LG SideKick washer E7",
+          "summary": "The stacking installation or its detection switch needs attention.",
+          "checks": [
+            "Check whether the washer above SideKick is an approved pairing in its manual.",
+            "Note visible misalignment without lifting appliances; do not press or secure the stacking switch."
+          ],
+          "escalation": "Give both models and installation observations to LG official installation/service; do not adjust/bypass the stacking switch or lift appliances.",
+          "scope": "LG SideKick pedestal washers only; do not extend this E7 interpretation to other washers."
+        },
+        "es": {
+          "title": "Lavadora LG SideKick E7",
+          "summary": "La instalación apilada o su interruptor de detección requiere atención.",
+          "checks": [
+            "Compruebe si la lavadora sobre SideKick es una combinación admitida en el manual.",
+            "Anote desalineaciones sin levantar aparatos; no pulse ni fije el interruptor de apilado."
+          ],
+          "escalation": "Facilite ambos modelos e instalación al servicio oficial LG; no ajuste/anule el interruptor ni levante aparatos.",
+          "scope": "Solo lavadoras pedestal LG SideKick; no extienda esta interpretación de E7 a otras lavadoras."
+        },
+        "zh": {
+          "title": "LG SideKick 洗衣机 E7",
+          "summary": "叠放安装或其检测开关存在异常提示。",
+          "checks": [
+            "按说明书确认 SideKick 上方洗衣机是否为允许搭配的型号。",
+            "不要抬起设备，只记录可见错位；不要按压或固定叠放开关。"
+          ],
+          "escalation": "向 LG 官方安装／服务提供上下设备型号及安装情况；不要调整或绕过叠放开关，也不要抬起设备。",
+          "scope": "仅适用于 LG SideKick 底座洗衣机，不能推广至其他洗衣机的 E7。"
+        },
+        "ja": {
+          "title": "LG SideKick 洗濯機 E7",
+          "summary": "積み重ね設置または検知スイッチに関する表示です。",
+          "checks": [
+            "SideKick 上部の洗濯機が説明書で認められた組み合わせか確認します。",
+            "本体を持ち上げず見えるずれを記録し、積み重ね検知スイッチを押したり固定したりしないでください。"
+          ],
+          "escalation": "上下の機種名と設置状態を LG 公式設置・修理へ伝えます。検知スイッチの調整・無効化や本体の持ち上げをしないでください。",
+          "scope": "LG SideKick 台座式洗濯機専用です。他の洗濯機の E7 へ拡張しないでください。"
+        },
+        "de": {
+          "title": "LG-SideKick-Waschmaschine E7",
+          "summary": "Die Stapelinstallation oder ihr Erkennungsschalter muss geprüft werden.",
+          "checks": [
+            "Prüfen Sie im Handbuch, ob die Waschmaschine über dem SideKick als Kombination zugelassen ist.",
+            "Notieren Sie Fehlstellungen ohne Anheben; drücken oder fixieren Sie den Stapelschalter nicht."
+          ],
+          "escalation": "Beide Modelle und Einbau an LG-Installationsservice melden; Stapelschalter weder verstellen noch überbrücken und Geräte nicht anheben.",
+          "scope": "Nur für LG-SideKick-Sockelwaschmaschinen; diese E7-Deutung nicht auf andere Waschmaschinen übertragen."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "slug": "appliance-error-guide",
+  "type": "directory",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ],
+  "entries": 24,
+  "pages": 150,
+  "internalLinksChecked": 3433,
+  "externalLinksObserved": 14,
+  "publisherPages": 150,
+  "origin": "https://nanalab.kr/appliance-error-guide",
+  "binariesHosted": 0,
+  "sourceHosts": [
+    "www.lg.com",
+    "www.samsung.com"
+  ],
+  "sourceUrlsCheckedStatically": 10,
+  "httpReachabilityChecked": false,
+  "browserOrPhysicalExecutionChecked": false
+}
